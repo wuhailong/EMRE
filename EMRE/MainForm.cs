@@ -17,7 +17,9 @@ namespace EMRE
         public EMRE()
         {
             InitializeComponent();
-            System.IO.FileInfo file = new System.IO.FileInfo(@"E:\Github\EMRE\EMRE\Editor\ueditor1_4_3-utf8-net\index.html");
+            string _strEditorPath = Application.StartupPath + @"\Editor\index.html";
+            System.IO.FileInfo file = new System.IO.FileInfo(_strEditorPath);
+
             // WebBrowser控件显示的网页路径
             wb_editor.Url = new Uri(file.FullName);
             // 将当前类设置为可由脚本访问
