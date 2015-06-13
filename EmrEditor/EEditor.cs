@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Security.Permissions;
 using EmrEditor;
+using System.IO;
 
 namespace EMRE
 {
