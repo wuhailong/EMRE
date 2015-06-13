@@ -138,6 +138,12 @@ namespace EMRE
         }
         #endregion
 
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+           //字体加粗
+            object result = this.wb_editor.Document.InvokeScript("bold");
+        }
+
         
 
        

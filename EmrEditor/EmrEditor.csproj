@@ -49,11 +49,401 @@
       <DependentUpon>EEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="EEditor.resx">
       <DependentUpon>EEditor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borderdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borderline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borderup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\both.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delcolumn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deltable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\departline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downnum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downunion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fllow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertcolumn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertlinefront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linebetween.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lookfor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightunion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sortnum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sortpoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spical2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splitcell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splitcolumn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splitrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unioncell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upnum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\between23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blod23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borderdown1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borderline1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borderline23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borderup1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\both1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cliender23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delcolumn23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delrow23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deltable23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\departline23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downnum1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downnum23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downunion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fllow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fllow23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertcolumn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertline1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertlinefront1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linebetween1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linedown23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineup23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lookfor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lower1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lower23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mid1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mid23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midline1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midline23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightunion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rowbetween.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sortnum1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sortnum23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sortpoint1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sortpoint23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spical1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spical21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splitcell1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splitcolumn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splitline23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splitrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unioncell1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upnum1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upnum23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upper1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upper23.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
