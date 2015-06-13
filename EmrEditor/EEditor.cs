@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Security.Permissions;
+using EmrEditor;
 
 namespace EMRE
 {
@@ -14,6 +15,8 @@ namespace EMRE
     [System.Runtime.InteropServices.ComVisibleAttribute(true)]
     public partial class EEditor : UserControl
     {
+
+        public Command command; 
         public EEditor()
         {
             InitializeComponent();
@@ -25,6 +28,7 @@ namespace EMRE
             // 将当前类设置为可由脚本访问
             wb_editor.ObjectForScripting = this;
 
+            command = new Command();
 
         }
 
@@ -138,10 +142,13 @@ namespace EMRE
         }
         #endregion
 
-        private void toolStripButton1_Click(object sender, EventArgs e)
+       
+
+        private void toolStripButton39_Click(object sender, EventArgs e)
         {
-           //字体加粗
-            object result = this.wb_editor.Document.InvokeScript("bold");
+            //字体加粗
+            //object result = this.wb_editor.Document.InvokeScript("bold");
+            command.Invoke("bold", wb_editor);
         }
 
         
