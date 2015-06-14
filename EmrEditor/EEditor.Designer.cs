@@ -152,9 +152,14 @@
             this.preview = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton35 = new System.Windows.Forms.ToolStripButton();
             this.colorDialog = new System.Windows.Forms.ColorDialog();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -356,10 +361,11 @@
             // wb_editor
             // 
             this.wb_editor.AllowWebBrowserDrop = false;
-            this.wb_editor.Location = new System.Drawing.Point(3, 88);
+            this.wb_editor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wb_editor.Location = new System.Drawing.Point(0, 0);
             this.wb_editor.MinimumSize = new System.Drawing.Size(20, 20);
             this.wb_editor.Name = "wb_editor";
-            this.wb_editor.Size = new System.Drawing.Size(1164, 579);
+            this.wb_editor.Size = new System.Drawing.Size(1164, 641);
             this.wb_editor.TabIndex = 1;
             this.wb_editor.Url = new System.Uri("", System.UriKind.Relative);
             // 
@@ -390,7 +396,7 @@
             this.Paragraph,
             this.fontfamily,
             this.fontsize});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 25);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.MinimumSize = new System.Drawing.Size(30, 30);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(1164, 30);
@@ -946,6 +952,7 @@
             // 
             // toolStrip2
             // 
+            this.toolStrip2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.toolStrip2.ImageScalingSize = new System.Drawing.Size(23, 22);
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.indent,
@@ -987,7 +994,7 @@
             this.print,
             this.preview,
             this.toolStripButton35});
-            this.toolStrip2.Location = new System.Drawing.Point(0, 55);
+            this.toolStrip2.Location = new System.Drawing.Point(0, 30);
             this.toolStrip2.MinimumSize = new System.Drawing.Size(30, 30);
             this.toolStrip2.Name = "toolStrip2";
             this.toolStrip2.Size = new System.Drawing.Size(1164, 30);
@@ -1339,13 +1346,31 @@
             this.toolStripButton35.Size = new System.Drawing.Size(27, 27);
             this.toolStripButton35.Text = "查找替换";
             // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 25);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.toolStrip1);
+            this.splitContainer1.Panel1.Controls.Add(this.toolStrip2);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.wb_editor);
+            this.splitContainer1.Size = new System.Drawing.Size(1164, 705);
+            this.splitContainer1.SplitterDistance = 60;
+            this.splitContainer1.TabIndex = 4;
+            this.splitContainer1.TabStop = false;
+            // 
             // EEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.toolStrip2);
-            this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.wb_editor);
+            this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "EEditor";
             this.Size = new System.Drawing.Size(1164, 730);
@@ -1355,6 +1380,11 @@
             this.toolStrip1.PerformLayout();
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1486,6 +1516,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
         private System.Windows.Forms.ToolStripButton cleardoc;
+        private System.Windows.Forms.SplitContainer splitContainer1;
     }
 }
 
