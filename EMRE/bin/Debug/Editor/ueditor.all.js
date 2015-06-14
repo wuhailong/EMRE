@@ -18903,7 +18903,7 @@ UE.plugins['video'] = function (){
             return getTableItemsByRange(this).table ? -1 : 0;
         },
         execCommand: function (cmd, opt) {
-            function createTable(opt, tdWidth) {
+            function createTable(opt, tdWidth) {				
                 var html = [],
                     rowsNum = opt.numRows,
                     colsNum = opt.numCols;

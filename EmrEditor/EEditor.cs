@@ -385,6 +385,78 @@ namespace EMRE
         {
             command.Invoke("horizontal", wb_editor);
         }
+
+        private void toolStripButton20_Click(object sender, EventArgs e)
+        {
+            int _rownum=0,_colnum=0;
+            if (int.TryParse(rowNum.Text,out _rownum)&& int.TryParse(colNum.Text,out _colnum))
+            {
+                command.Invoke("inserttable", wb_editor, _rownum, _colnum);
+            }
+            
+        }
+
+        private void deletetable_Click(object sender, EventArgs e)
+        {
+            command.Invoke("deletetable", wb_editor);
+            
+        }
+
+        private void insertparagraphbeforetable_Click(object sender, EventArgs e)
+        {
+            command.Invoke("insertparagraphbeforetable", wb_editor);
+            
+        }
+
+        private void insertrow_Click(object sender, EventArgs e)
+        {
+            command.Invoke("insertrow", wb_editor);
+        }
+
+        private void deleterow_Click(object sender, EventArgs e)
+        {
+            command.Invoke("deleterow", wb_editor);
+        }
+
+        private void insertcol_Click(object sender, EventArgs e)
+        {
+            command.Invoke("insertcol", wb_editor);
+        }
+
+        private void deletecol_Click(object sender, EventArgs e)
+        {
+            command.Invoke("deletecol", wb_editor);
+        }
+
+        private void mergecells_Click(object sender, EventArgs e)
+        {
+            command.Invoke("mergecells", wb_editor);
+        }
+
+        private void mergeright_Click(object sender, EventArgs e)
+        {
+            command.Invoke("mergeright", wb_editor);
+        }
+
+        private void mergedown_Click(object sender, EventArgs e)
+        {
+            command.Invoke("mergedown", wb_editor);
+        }
+
+        private void splittocells_Click(object sender, EventArgs e)
+        {
+            command.Invoke("splittocells", wb_editor);
+        }
+
+        private void splittorows_Click(object sender, EventArgs e)
+        {
+            command.Invoke("splittorows", wb_editor);
+        }
+
+        private void splittocols_Click(object sender, EventArgs e)
+        {
+            command.Invoke("splittocols", wb_editor);
+        }
         
 
 

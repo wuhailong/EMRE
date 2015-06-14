@@ -3014,6 +3014,7 @@ var domUtils = dom.domUtils = {
         }
         name = utils.trim(name).replace(/[ ]{2,}/g,' ').split(' ');
         var arr = [];
+		try{
         for(var n = 0,ni;ni=name[n++];){
             var list = node.getElementsByTagName(ni);
             for (var i = 0, ci; ci = list[i++];) {
@@ -3021,7 +3022,7 @@ var domUtils = dom.domUtils = {
                     arr.push(ci);
             }
         }
-
+		}catch(error){}
         return arr;
     },
     /**
@@ -18903,6 +18904,7 @@ UE.plugins['video'] = function (){
         },
         execCommand: function (cmd, opt) {
             function createTable(opt, tdWidth) {
+				alert(opt.numRows);
                 var html = [],
                     rowsNum = opt.numRows,
                     colsNum = opt.numCols;

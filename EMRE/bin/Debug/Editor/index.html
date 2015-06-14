@@ -180,7 +180,122 @@
 		
 		    ue.execCommand('preview');
 		}
+
+		function inserttable(row,col) {
+			var opt = {numRows:row,
+			numCols:col
+			};					
+		    ue.execCommand('inserttable',opt);
+		}
+
+		function deletetable() {
 		
+		    ue.execCommand('deletetable');
+		}
+
+		function insertparagraphbeforetable() {
+		
+		    ue.execCommand('insertparagraphbeforetable');
+		}
+		
+		function insertrow() {
+		
+		    ue.execCommand('insertrow');
+		}
+
+		function cellalign() {
+		
+		    ue.execCommand('cellalign');
+		}
+
+		function cellvalign() {
+		
+		    ue.execCommand('cellvalign');
+		}
+
+		function insertcaption() {
+		
+		    ue.execCommand('insertcaption');
+		}
+
+		function deletecaption() {
+		
+		    ue.execCommand('deletecaption');
+		}
+
+		function inserttitle() {
+		
+		    ue.execCommand('inserttitle');
+		}
+
+		function deletetitle() {
+		
+		    ue.execCommand('deletetitle');
+		}
+
+		function inserttitlecol() {
+		
+		    ue.execCommand('inserttitlecol');
+		}
+
+		function deletetitlecol() {
+		
+		    ue.execCommand('deletetitlecol');
+		}
+
+		function mergeright() {
+		
+		    ue.execCommand('mergeright');
+		}
+
+		function mergedown() {
+		
+		    ue.execCommand('mergedown');
+		}
+
+		function mergecells() {
+		
+		    ue.execCommand('mergecells');
+		}
+
+		function insertrownext() {
+		
+		    ue.execCommand('insertrownext');
+		}
+		
+		function deleterow() {
+		
+		    ue.execCommand('deleterow');
+		}
+		
+		function insertcol() {
+		
+		    ue.execCommand('insertcol');
+		}
+
+		function insertcolnext() {
+		
+		    ue.execCommand('insertcolnext');
+		}
+		function deletecol() {
+		
+		    ue.execCommand('deletecol');
+		}
+
+		function splittocells() {
+		
+		    ue.execCommand('splittocells');
+		}
+
+		function splittorows() {
+		
+		    ue.execCommand('splittorows');
+		}
+		function splittocols() {
+		
+		    ue.execCommand('splittocols');
+		}
+
         function isFocus(e) {
             alert(UE.getEditor('editor').isFocus());
             UE.dom.domUtils.preventDefault(e)

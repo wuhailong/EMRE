@@ -37,6 +37,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 730);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "EMRE";
             this.Text = "EMRE";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

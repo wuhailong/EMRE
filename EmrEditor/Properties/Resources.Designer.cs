@@ -173,6 +173,16 @@ namespace EmrEditor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap deltable232 {
+            get {
+                object obj = ResourceManager.GetObject("deltable232", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap departline23 {
             get {
                 object obj = ResourceManager.GetObject("departline23", resourceCulture);
@@ -356,6 +366,16 @@ namespace EmrEditor.Properties {
         internal static System.Drawing.Bitmap insertlinefront1 {
             get {
                 object obj = ResourceManager.GetObject("insertlinefront1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap inserttable232 {
+            get {
+                object obj = ResourceManager.GetObject("inserttable232", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

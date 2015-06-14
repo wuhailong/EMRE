@@ -56,6 +56,54 @@
             this.帮助HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wb_editor = new System.Windows.Forms.WebBrowser();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.Paragraph = new System.Windows.Forms.ToolStripComboBox();
+            this.fontfamily = new System.Windows.Forms.ToolStripComboBox();
+            this.fontsize = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripComboBox5 = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.colorDialog = new System.Windows.Forms.ColorDialog();
+            this.rowNum = new System.Windows.Forms.ToolStripTextBox();
+            this.colNum = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.indent = new System.Windows.Forms.ToolStripButton();
+            this.justifyleft = new System.Windows.Forms.ToolStripButton();
+            this.justifymid = new System.Windows.Forms.ToolStripButton();
+            this.justifyfirght = new System.Windows.Forms.ToolStripButton();
+            this.justifyboth = new System.Windows.Forms.ToolStripButton();
+            this.touppercase = new System.Windows.Forms.ToolStripButton();
+            this.tolowercase = new System.Windows.Forms.ToolStripButton();
+            this.pagesplit = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
+            this.insertimage = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
+            this.horizontal = new System.Windows.Forms.ToolStripButton();
+            this.date = new System.Windows.Forms.ToolStripButton();
+            this.time = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
+            this.deletetable = new System.Windows.Forms.ToolStripButton();
+            this.insertparagraphbeforetable = new System.Windows.Forms.ToolStripButton();
+            this.insertrow = new System.Windows.Forms.ToolStripButton();
+            this.deleterow = new System.Windows.Forms.ToolStripButton();
+            this.insertcol = new System.Windows.Forms.ToolStripButton();
+            this.deletecol = new System.Windows.Forms.ToolStripButton();
+            this.mergecells = new System.Windows.Forms.ToolStripButton();
+            this.mergeright = new System.Windows.Forms.ToolStripButton();
+            this.mergedown = new System.Windows.Forms.ToolStripButton();
+            this.splittocells = new System.Windows.Forms.ToolStripButton();
+            this.splittorows = new System.Windows.Forms.ToolStripButton();
+            this.splittocols = new System.Windows.Forms.ToolStripButton();
+            this.print = new System.Windows.Forms.ToolStripButton();
+            this.preview = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton35 = new System.Windows.Forms.ToolStripButton();
             this.undo = new System.Windows.Forms.ToolStripButton();
             this.redo = new System.Windows.Forms.ToolStripButton();
             this.nold = new System.Windows.Forms.ToolStripButton();
@@ -65,7 +113,6 @@
             this.strikethrough = new System.Windows.Forms.ToolStripButton();
             this.superscript = new System.Windows.Forms.ToolStripButton();
             this.subscript = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.fontcolor = new System.Windows.Forms.ToolStripButton();
             this.backcolor = new System.Windows.Forms.ToolStripButton();
             this.insertorderedlist = new System.Windows.Forms.ToolStripSplitButton();
@@ -80,6 +127,11 @@
             this.iiiiiiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iIIIIIToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.insertunorderedlist = new System.Windows.Forms.ToolStripSplitButton();
+            this.大圆圈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.小圆点ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.小方块ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.破折号ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.小圆圈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rowspacingUp = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
@@ -100,54 +152,6 @@
             this.toolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem18 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
-            this.Paragraph = new System.Windows.Forms.ToolStripComboBox();
-            this.fontfamily = new System.Windows.Forms.ToolStripComboBox();
-            this.fontsize = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripComboBox5 = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
-            this.indent = new System.Windows.Forms.ToolStripButton();
-            this.justifyleft = new System.Windows.Forms.ToolStripButton();
-            this.justifymid = new System.Windows.Forms.ToolStripButton();
-            this.justifyfirght = new System.Windows.Forms.ToolStripButton();
-            this.justifyboth = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.touppercase = new System.Windows.Forms.ToolStripButton();
-            this.tolowercase = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.pagesplit = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
-            this.insertimage = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
-            this.horizontal = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.date = new System.Windows.Forms.ToolStripButton();
-            this.time = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton23 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton24 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton25 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton26 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton27 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton28 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton29 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton30 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton31 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton32 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.print = new System.Windows.Forms.ToolStripButton();
-            this.preview = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton35 = new System.Windows.Forms.ToolStripButton();
-            this.colorDialog = new System.Windows.Forms.ColorDialog();
-            this.大圆圈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.小圆点ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.小方块ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.破折号ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.小圆圈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
@@ -393,6 +397,478 @@
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 30);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 30);
+            // 
+            // toolStripComboBox1
+            // 
+            this.toolStripComboBox1.Items.AddRange(new object[] {
+            "自定义标题",
+            "标题居中",
+            "标题居左",
+            "强调",
+            "明显强调"});
+            this.toolStripComboBox1.Name = "toolStripComboBox1";
+            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 30);
+            this.toolStripComboBox1.Text = "自定义标题";
+            // 
+            // Paragraph
+            // 
+            this.Paragraph.Items.AddRange(new object[] {
+            "段落   -p",
+            "标题1 -h1",
+            "标题2 -h2",
+            "标题3 -h3",
+            "标题4 -h4",
+            "标题5 -h5",
+            "标题6 -h6"});
+            this.Paragraph.Name = "Paragraph";
+            this.Paragraph.Size = new System.Drawing.Size(121, 30);
+            this.Paragraph.Text = "段落 -p";
+            this.Paragraph.SelectedIndexChanged += new System.EventHandler(this.Paragraph_SelectedIndexChanged);
+            // 
+            // fontfamily
+            // 
+            this.fontfamily.Items.AddRange(new object[] {
+            "宋体",
+            "微软雅黑",
+            "楷体",
+            "黑体",
+            "隶书",
+            "andale mono",
+            "arial",
+            "arial black",
+            "comic sans ms",
+            "impact",
+            "times new roman"});
+            this.fontfamily.Name = "fontfamily";
+            this.fontfamily.Size = new System.Drawing.Size(121, 30);
+            this.fontfamily.Text = "arial";
+            this.fontfamily.SelectedIndexChanged += new System.EventHandler(this.fontfamily_SelectedIndexChanged);
+            // 
+            // fontsize
+            // 
+            this.fontsize.Items.AddRange(new object[] {
+            "10px",
+            "11px",
+            "12px",
+            "14px",
+            "16px",
+            "18px",
+            "20px",
+            "24px"});
+            this.fontsize.Name = "fontsize";
+            this.fontsize.Size = new System.Drawing.Size(121, 30);
+            this.fontsize.Text = "16px";
+            this.fontsize.SelectedIndexChanged += new System.EventHandler(this.fontsize_SelectedIndexChanged);
+            // 
+            // toolStripComboBox5
+            // 
+            this.toolStripComboBox5.Name = "toolStripComboBox5";
+            this.toolStripComboBox5.Size = new System.Drawing.Size(121, 30);
+            // 
+            // toolStrip2
+            // 
+            this.toolStrip2.ImageScalingSize = new System.Drawing.Size(23, 22);
+            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.indent,
+            this.justifyleft,
+            this.justifymid,
+            this.justifyfirght,
+            this.justifyboth,
+            this.toolStripSeparator3,
+            this.touppercase,
+            this.tolowercase,
+            this.toolStripSeparator4,
+            this.pagesplit,
+            this.toolStripButton14,
+            this.insertimage,
+            this.toolStripButton16,
+            this.horizontal,
+            this.toolStripSeparator7,
+            this.date,
+            this.time,
+            this.toolStripSeparator5,
+            this.toolStripLabel1,
+            this.rowNum,
+            this.toolStripLabel2,
+            this.colNum,
+            this.toolStripButton20,
+            this.deletetable,
+            this.insertparagraphbeforetable,
+            this.insertrow,
+            this.deleterow,
+            this.insertcol,
+            this.deletecol,
+            this.mergecells,
+            this.mergeright,
+            this.mergedown,
+            this.splittocells,
+            this.splittorows,
+            this.splittocols,
+            this.toolStripSeparator6,
+            this.print,
+            this.preview,
+            this.toolStripButton35});
+            this.toolStrip2.Location = new System.Drawing.Point(0, 55);
+            this.toolStrip2.MinimumSize = new System.Drawing.Size(30, 30);
+            this.toolStrip2.Name = "toolStrip2";
+            this.toolStrip2.Size = new System.Drawing.Size(1164, 30);
+            this.toolStrip2.TabIndex = 3;
+            this.toolStrip2.Text = "toolStrip2";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 30);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 30);
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 30);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 30);
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 30);
+            // 
+            // rowNum
+            // 
+            this.rowNum.Name = "rowNum";
+            this.rowNum.Size = new System.Drawing.Size(50, 30);
+            // 
+            // colNum
+            // 
+            this.colNum.Name = "colNum";
+            this.colNum.Size = new System.Drawing.Size(50, 30);
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(32, 27);
+            this.toolStripLabel1.Text = "行：";
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(32, 27);
+            this.toolStripLabel2.Text = "列：";
+            // 
+            // indent
+            // 
+            this.indent.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.indent.Image = ((System.Drawing.Image)(resources.GetObject("indent.Image")));
+            this.indent.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.indent.Name = "indent";
+            this.indent.Size = new System.Drawing.Size(27, 27);
+            this.indent.Text = "首行缩进";
+            this.indent.Click += new System.EventHandler(this.indent_Click);
+            // 
+            // justifyleft
+            // 
+            this.justifyleft.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.justifyleft.Image = global::EmrEditor.Properties.Resources.left23;
+            this.justifyleft.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.justifyleft.Name = "justifyleft";
+            this.justifyleft.Size = new System.Drawing.Size(27, 27);
+            this.justifyleft.Text = "左对齐";
+            this.justifyleft.Click += new System.EventHandler(this.justifyleft_Click);
+            // 
+            // justifymid
+            // 
+            this.justifymid.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.justifymid.Image = global::EmrEditor.Properties.Resources.mid23;
+            this.justifymid.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.justifymid.Name = "justifymid";
+            this.justifymid.Size = new System.Drawing.Size(27, 27);
+            this.justifymid.Text = "居中";
+            this.justifymid.Click += new System.EventHandler(this.justifymid_Click);
+            // 
+            // justifyfirght
+            // 
+            this.justifyfirght.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.justifyfirght.Image = global::EmrEditor.Properties.Resources.right23;
+            this.justifyfirght.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.justifyfirght.Name = "justifyfirght";
+            this.justifyfirght.Size = new System.Drawing.Size(27, 27);
+            this.justifyfirght.Text = "右对齐";
+            this.justifyfirght.Click += new System.EventHandler(this.justifyfirght_Click);
+            // 
+            // justifyboth
+            // 
+            this.justifyboth.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.justifyboth.Image = global::EmrEditor.Properties.Resources.between23;
+            this.justifyboth.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.justifyboth.Name = "justifyboth";
+            this.justifyboth.Size = new System.Drawing.Size(27, 27);
+            this.justifyboth.Text = "中间对齐";
+            this.justifyboth.Click += new System.EventHandler(this.justifyboth_Click);
+            // 
+            // touppercase
+            // 
+            this.touppercase.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.touppercase.Image = global::EmrEditor.Properties.Resources.upper23;
+            this.touppercase.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.touppercase.Name = "touppercase";
+            this.touppercase.Size = new System.Drawing.Size(27, 27);
+            this.touppercase.Text = "字母大写";
+            this.touppercase.Click += new System.EventHandler(this.touppercase_Click);
+            // 
+            // tolowercase
+            // 
+            this.tolowercase.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tolowercase.Image = global::EmrEditor.Properties.Resources.lower23;
+            this.tolowercase.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tolowercase.Name = "tolowercase";
+            this.tolowercase.Size = new System.Drawing.Size(27, 27);
+            this.tolowercase.Text = "字母小写";
+            this.tolowercase.Click += new System.EventHandler(this.tolowercase_Click);
+            // 
+            // pagesplit
+            // 
+            this.pagesplit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.pagesplit.Image = global::EmrEditor.Properties.Resources.pagesplit23;
+            this.pagesplit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.pagesplit.Name = "pagesplit";
+            this.pagesplit.Size = new System.Drawing.Size(27, 27);
+            this.pagesplit.Text = "toolStripButton3";
+            this.pagesplit.Click += new System.EventHandler(this.pagesplit_Click);
+            // 
+            // toolStripButton14
+            // 
+            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton14.Image = global::EmrEditor.Properties.Resources.fllow23;
+            this.toolStripButton14.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton14.Name = "toolStripButton14";
+            this.toolStripButton14.Size = new System.Drawing.Size(27, 27);
+            this.toolStripButton14.Text = "附件";
+            // 
+            // insertimage
+            // 
+            this.insertimage.AutoSize = false;
+            this.insertimage.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.insertimage.Image = global::EmrEditor.Properties.Resources.image23;
+            this.insertimage.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.insertimage.Name = "insertimage";
+            this.insertimage.Size = new System.Drawing.Size(27, 27);
+            this.insertimage.Text = "添加图片";
+            this.insertimage.Click += new System.EventHandler(this.insertimage_Click);
+            // 
+            // toolStripButton16
+            // 
+            this.toolStripButton16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton16.Image = global::EmrEditor.Properties.Resources.spical21;
+            this.toolStripButton16.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton16.Name = "toolStripButton16";
+            this.toolStripButton16.Size = new System.Drawing.Size(27, 27);
+            this.toolStripButton16.Text = "特殊字符";
+            // 
+            // horizontal
+            // 
+            this.horizontal.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.horizontal.Image = global::EmrEditor.Properties.Resources.splitline23;
+            this.horizontal.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.horizontal.Name = "horizontal";
+            this.horizontal.Size = new System.Drawing.Size(27, 27);
+            this.horizontal.Text = "分割线";
+            this.horizontal.Click += new System.EventHandler(this.horizontal_Click);
+            // 
+            // date
+            // 
+            this.date.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.date.Image = global::EmrEditor.Properties.Resources.cliender23;
+            this.date.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(27, 27);
+            this.date.Text = "日期";
+            this.date.Click += new System.EventHandler(this.date_Click);
+            // 
+            // time
+            // 
+            this.time.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.time.Image = global::EmrEditor.Properties.Resources.time;
+            this.time.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.time.Name = "time";
+            this.time.Size = new System.Drawing.Size(27, 27);
+            this.time.Text = "时间";
+            this.time.Click += new System.EventHandler(this.time_Click);
+            // 
+            // toolStripButton20
+            // 
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton20.Image = global::EmrEditor.Properties.Resources.inserttable232;
+            this.toolStripButton20.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.Size = new System.Drawing.Size(27, 27);
+            this.toolStripButton20.Text = "表格";
+            this.toolStripButton20.Click += new System.EventHandler(this.toolStripButton20_Click);
+            // 
+            // deletetable
+            // 
+            this.deletetable.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.deletetable.Image = global::EmrEditor.Properties.Resources.deltable232;
+            this.deletetable.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.deletetable.Name = "deletetable";
+            this.deletetable.Size = new System.Drawing.Size(27, 27);
+            this.deletetable.Text = "删除表格";
+            this.deletetable.Click += new System.EventHandler(this.deletetable_Click);
+            // 
+            // insertparagraphbeforetable
+            // 
+            this.insertparagraphbeforetable.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.insertparagraphbeforetable.Image = global::EmrEditor.Properties.Resources.insertline1;
+            this.insertparagraphbeforetable.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.insertparagraphbeforetable.Name = "insertparagraphbeforetable";
+            this.insertparagraphbeforetable.Size = new System.Drawing.Size(27, 27);
+            this.insertparagraphbeforetable.Text = "表格前插入行";
+            this.insertparagraphbeforetable.Click += new System.EventHandler(this.insertparagraphbeforetable_Click);
+            // 
+            // insertrow
+            // 
+            this.insertrow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.insertrow.Image = global::EmrEditor.Properties.Resources.insertlinefront1;
+            this.insertrow.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.insertrow.Name = "insertrow";
+            this.insertrow.Size = new System.Drawing.Size(27, 27);
+            this.insertrow.Text = "前插入行";
+            this.insertrow.Click += new System.EventHandler(this.insertrow_Click);
+            // 
+            // deleterow
+            // 
+            this.deleterow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.deleterow.Image = global::EmrEditor.Properties.Resources.delrow23;
+            this.deleterow.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.deleterow.Name = "deleterow";
+            this.deleterow.Size = new System.Drawing.Size(27, 27);
+            this.deleterow.Text = "删除行";
+            this.deleterow.Click += new System.EventHandler(this.deleterow_Click);
+            // 
+            // insertcol
+            // 
+            this.insertcol.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.insertcol.Image = global::EmrEditor.Properties.Resources.insertcolumn;
+            this.insertcol.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.insertcol.Name = "insertcol";
+            this.insertcol.Size = new System.Drawing.Size(27, 27);
+            this.insertcol.Text = "前插入列";
+            this.insertcol.Click += new System.EventHandler(this.insertcol_Click);
+            // 
+            // deletecol
+            // 
+            this.deletecol.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.deletecol.Image = global::EmrEditor.Properties.Resources.delcolumn23;
+            this.deletecol.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.deletecol.Name = "deletecol";
+            this.deletecol.Size = new System.Drawing.Size(27, 27);
+            this.deletecol.Text = "删除列";
+            this.deletecol.Click += new System.EventHandler(this.deletecol_Click);
+            // 
+            // mergecells
+            // 
+            this.mergecells.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.mergecells.Image = global::EmrEditor.Properties.Resources.unioncell;
+            this.mergecells.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mergecells.Name = "mergecells";
+            this.mergecells.Size = new System.Drawing.Size(27, 27);
+            this.mergecells.Text = "合并单元格";
+            this.mergecells.Click += new System.EventHandler(this.mergecells_Click);
+            // 
+            // mergeright
+            // 
+            this.mergeright.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.mergeright.Image = global::EmrEditor.Properties.Resources.rightunion;
+            this.mergeright.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mergeright.Name = "mergeright";
+            this.mergeright.Size = new System.Drawing.Size(27, 27);
+            this.mergeright.Text = "右合并单元格";
+            this.mergeright.Click += new System.EventHandler(this.mergeright_Click);
+            // 
+            // mergedown
+            // 
+            this.mergedown.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.mergedown.Image = global::EmrEditor.Properties.Resources.downunion;
+            this.mergedown.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mergedown.Name = "mergedown";
+            this.mergedown.Size = new System.Drawing.Size(27, 27);
+            this.mergedown.Text = "下合并单元格";
+            this.mergedown.Click += new System.EventHandler(this.mergedown_Click);
+            // 
+            // splittocells
+            // 
+            this.splittocells.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.splittocells.Image = global::EmrEditor.Properties.Resources.splitcell;
+            this.splittocells.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.splittocells.Name = "splittocells";
+            this.splittocells.Size = new System.Drawing.Size(27, 27);
+            this.splittocells.Text = "拆分单元格";
+            this.splittocells.Click += new System.EventHandler(this.splittocells_Click);
+            // 
+            // splittorows
+            // 
+            this.splittorows.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.splittorows.Image = global::EmrEditor.Properties.Resources.splitrow;
+            this.splittorows.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.splittorows.Name = "splittorows";
+            this.splittorows.Size = new System.Drawing.Size(27, 27);
+            this.splittorows.Text = "拆分成行";
+            this.splittorows.Click += new System.EventHandler(this.splittorows_Click);
+            // 
+            // splittocols
+            // 
+            this.splittocols.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.splittocols.Image = global::EmrEditor.Properties.Resources.splitcolumn;
+            this.splittocols.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.splittocols.Name = "splittocols";
+            this.splittocols.Size = new System.Drawing.Size(27, 27);
+            this.splittocols.Text = "拆分成列";
+            this.splittocols.Click += new System.EventHandler(this.splittocols_Click);
+            // 
+            // print
+            // 
+            this.print.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.print.Image = global::EmrEditor.Properties.Resources.Print;
+            this.print.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.print.Name = "print";
+            this.print.Size = new System.Drawing.Size(27, 27);
+            this.print.Text = "打印";
+            this.print.Click += new System.EventHandler(this.print_Click);
+            // 
+            // preview
+            // 
+            this.preview.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.preview.Image = global::EmrEditor.Properties.Resources.preview;
+            this.preview.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.preview.Name = "preview";
+            this.preview.Size = new System.Drawing.Size(27, 27);
+            this.preview.Text = "预览";
+            this.preview.Click += new System.EventHandler(this.preview_Click);
+            // 
+            // toolStripButton35
+            // 
+            this.toolStripButton35.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton35.Image = global::EmrEditor.Properties.Resources.lookfor;
+            this.toolStripButton35.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton35.Name = "toolStripButton35";
+            this.toolStripButton35.Size = new System.Drawing.Size(27, 27);
+            this.toolStripButton35.Text = "查找替换";
+            // 
             // undo
             // 
             this.undo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -482,11 +958,6 @@
             this.subscript.Size = new System.Drawing.Size(27, 27);
             this.subscript.Text = "下标";
             this.subscript.Click += new System.EventHandler(this.subscript_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 30);
             // 
             // fontcolor
             // 
@@ -635,6 +1106,46 @@
             this.insertunorderedlist.Size = new System.Drawing.Size(39, 27);
             this.insertunorderedlist.Text = "无序列表";
             // 
+            // 大圆圈ToolStripMenuItem
+            // 
+            this.大圆圈ToolStripMenuItem.Name = "大圆圈ToolStripMenuItem";
+            this.大圆圈ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.大圆圈ToolStripMenuItem.Tag = "circle";
+            this.大圆圈ToolStripMenuItem.Text = "○大圆圈";
+            this.大圆圈ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
+            // 
+            // 小圆点ToolStripMenuItem
+            // 
+            this.小圆点ToolStripMenuItem.Name = "小圆点ToolStripMenuItem";
+            this.小圆点ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.小圆点ToolStripMenuItem.Tag = "disc";
+            this.小圆点ToolStripMenuItem.Text = "●小圆点";
+            this.小圆点ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
+            // 
+            // 小方块ToolStripMenuItem
+            // 
+            this.小方块ToolStripMenuItem.Name = "小方块ToolStripMenuItem";
+            this.小方块ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.小方块ToolStripMenuItem.Tag = "square";
+            this.小方块ToolStripMenuItem.Text = "■小方块";
+            this.小方块ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
+            // 
+            // 破折号ToolStripMenuItem
+            // 
+            this.破折号ToolStripMenuItem.Name = "破折号ToolStripMenuItem";
+            this.破折号ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.破折号ToolStripMenuItem.Tag = "dash";
+            this.破折号ToolStripMenuItem.Text = "-破折号";
+            this.破折号ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
+            // 
+            // 小圆圈ToolStripMenuItem
+            // 
+            this.小圆圈ToolStripMenuItem.Name = "小圆圈ToolStripMenuItem";
+            this.小圆圈ToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.小圆圈ToolStripMenuItem.Tag = "dot";
+            this.小圆圈ToolStripMenuItem.Text = "°小圆圈";
+            this.小圆圈ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
+            // 
             // rowspacingUp
             // 
             this.rowspacingUp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -656,7 +1167,7 @@
             this.toolStripMenuItem2.CheckOnClick = true;
             this.toolStripMenuItem2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem2.Text = "5";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
             // 
@@ -664,7 +1175,7 @@
             // 
             this.toolStripMenuItem3.CheckOnClick = true;
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem3.Text = "10";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
             // 
@@ -672,7 +1183,7 @@
             // 
             this.toolStripMenuItem4.CheckOnClick = true;
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem4.Text = "15";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
             // 
@@ -680,7 +1191,7 @@
             // 
             this.toolStripMenuItem5.CheckOnClick = true;
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem5.Text = "20";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
             // 
@@ -688,7 +1199,7 @@
             // 
             this.toolStripMenuItem6.CheckOnClick = true;
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem6.Text = "25";
             this.toolStripMenuItem6.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
             // 
@@ -713,7 +1224,7 @@
             this.toolStripMenuItem7.CheckOnClick = true;
             this.toolStripMenuItem7.CheckState = System.Windows.Forms.CheckState.Checked;
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem7.Text = "5";
             this.toolStripMenuItem7.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
             // 
@@ -721,7 +1232,7 @@
             // 
             this.toolStripMenuItem8.CheckOnClick = true;
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem8.Text = "10";
             this.toolStripMenuItem8.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
             // 
@@ -729,7 +1240,7 @@
             // 
             this.toolStripMenuItem9.CheckOnClick = true;
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem9.Text = "15";
             this.toolStripMenuItem9.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
             // 
@@ -737,7 +1248,7 @@
             // 
             this.toolStripMenuItem10.CheckOnClick = true;
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem10.Text = "20";
             this.toolStripMenuItem10.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
             // 
@@ -745,7 +1256,7 @@
             // 
             this.toolStripMenuItem11.CheckOnClick = true;
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(90, 22);
             this.toolStripMenuItem11.Text = "25";
             this.toolStripMenuItem11.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
             // 
@@ -770,7 +1281,7 @@
             // 
             this.toolStripMenuItem12.CheckOnClick = true;
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem12.Text = "1";
             this.toolStripMenuItem12.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
             // 
@@ -779,7 +1290,7 @@
             this.toolStripMenuItem13.Checked = true;
             this.toolStripMenuItem13.CheckState = System.Windows.Forms.CheckState.Checked;
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem13.Text = "1.5";
             this.toolStripMenuItem13.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
             // 
@@ -787,7 +1298,7 @@
             // 
             this.toolStripMenuItem14.CheckOnClick = true;
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem14.Text = "1.75";
             this.toolStripMenuItem14.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
             // 
@@ -795,7 +1306,7 @@
             // 
             this.toolStripMenuItem15.CheckOnClick = true;
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem15.Text = "2";
             this.toolStripMenuItem15.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
             // 
@@ -803,7 +1314,7 @@
             // 
             this.toolStripMenuItem16.CheckOnClick = true;
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem16.Text = "3";
             this.toolStripMenuItem16.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
             // 
@@ -811,7 +1322,7 @@
             // 
             this.toolStripMenuItem17.CheckOnClick = true;
             this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem17.Text = "4";
             this.toolStripMenuItem17.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
             // 
@@ -819,477 +1330,9 @@
             // 
             this.toolStripMenuItem18.CheckOnClick = true;
             this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem18.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem18.Text = "5";
             this.toolStripMenuItem18.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripComboBox1
-            // 
-            this.toolStripComboBox1.Items.AddRange(new object[] {
-            "自定义标题",
-            "标题居中",
-            "标题居左",
-            "强调",
-            "明显强调"});
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 30);
-            this.toolStripComboBox1.Text = "自定义标题";
-            // 
-            // Paragraph
-            // 
-            this.Paragraph.Items.AddRange(new object[] {
-            "段落   -p",
-            "标题1 -h1",
-            "标题2 -h2",
-            "标题3 -h3",
-            "标题4 -h4",
-            "标题5 -h5",
-            "标题6 -h6"});
-            this.Paragraph.Name = "Paragraph";
-            this.Paragraph.Size = new System.Drawing.Size(121, 30);
-            this.Paragraph.Text = "段落 -p";
-            this.Paragraph.SelectedIndexChanged += new System.EventHandler(this.Paragraph_SelectedIndexChanged);
-            // 
-            // fontfamily
-            // 
-            this.fontfamily.Items.AddRange(new object[] {
-            "宋体",
-            "微软雅黑",
-            "楷体",
-            "黑体",
-            "隶书",
-            "andale mono",
-            "arial",
-            "arial black",
-            "comic sans ms",
-            "impact",
-            "times new roman"});
-            this.fontfamily.Name = "fontfamily";
-            this.fontfamily.Size = new System.Drawing.Size(121, 30);
-            this.fontfamily.Text = "arial";
-            this.fontfamily.SelectedIndexChanged += new System.EventHandler(this.fontfamily_SelectedIndexChanged);
-            // 
-            // fontsize
-            // 
-            this.fontsize.Items.AddRange(new object[] {
-            "10px",
-            "11px",
-            "12px",
-            "14px",
-            "16px",
-            "18px",
-            "20px",
-            "24px"});
-            this.fontsize.Name = "fontsize";
-            this.fontsize.Size = new System.Drawing.Size(121, 30);
-            this.fontsize.Text = "16px";
-            this.fontsize.SelectedIndexChanged += new System.EventHandler(this.fontsize_SelectedIndexChanged);
-            // 
-            // toolStripComboBox5
-            // 
-            this.toolStripComboBox5.Name = "toolStripComboBox5";
-            this.toolStripComboBox5.Size = new System.Drawing.Size(121, 30);
-            // 
-            // toolStrip2
-            // 
-            this.toolStrip2.ImageScalingSize = new System.Drawing.Size(23, 22);
-            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.indent,
-            this.justifyleft,
-            this.justifymid,
-            this.justifyfirght,
-            this.justifyboth,
-            this.toolStripSeparator3,
-            this.touppercase,
-            this.tolowercase,
-            this.toolStripSeparator4,
-            this.pagesplit,
-            this.toolStripButton14,
-            this.insertimage,
-            this.toolStripButton16,
-            this.horizontal,
-            this.toolStripSeparator7,
-            this.date,
-            this.time,
-            this.toolStripSeparator5,
-            this.toolStripButton20,
-            this.toolStripButton21,
-            this.toolStripButton22,
-            this.toolStripButton23,
-            this.toolStripButton24,
-            this.toolStripButton25,
-            this.toolStripButton26,
-            this.toolStripButton27,
-            this.toolStripButton28,
-            this.toolStripButton29,
-            this.toolStripButton30,
-            this.toolStripButton31,
-            this.toolStripButton32,
-            this.toolStripSeparator6,
-            this.print,
-            this.preview,
-            this.toolStripButton35});
-            this.toolStrip2.Location = new System.Drawing.Point(0, 55);
-            this.toolStrip2.MinimumSize = new System.Drawing.Size(30, 30);
-            this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(1164, 30);
-            this.toolStrip2.TabIndex = 3;
-            this.toolStrip2.Text = "toolStrip2";
-            // 
-            // indent
-            // 
-            this.indent.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.indent.Image = ((System.Drawing.Image)(resources.GetObject("indent.Image")));
-            this.indent.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.indent.Name = "indent";
-            this.indent.Size = new System.Drawing.Size(27, 27);
-            this.indent.Text = "首行缩进";
-            this.indent.Click += new System.EventHandler(this.indent_Click);
-            // 
-            // justifyleft
-            // 
-            this.justifyleft.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.justifyleft.Image = global::EmrEditor.Properties.Resources.left23;
-            this.justifyleft.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.justifyleft.Name = "justifyleft";
-            this.justifyleft.Size = new System.Drawing.Size(27, 27);
-            this.justifyleft.Text = "左对齐";
-            this.justifyleft.Click += new System.EventHandler(this.justifyleft_Click);
-            // 
-            // justifymid
-            // 
-            this.justifymid.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.justifymid.Image = global::EmrEditor.Properties.Resources.mid23;
-            this.justifymid.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.justifymid.Name = "justifymid";
-            this.justifymid.Size = new System.Drawing.Size(27, 27);
-            this.justifymid.Text = "居中";
-            this.justifymid.Click += new System.EventHandler(this.justifymid_Click);
-            // 
-            // justifyfirght
-            // 
-            this.justifyfirght.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.justifyfirght.Image = global::EmrEditor.Properties.Resources.right23;
-            this.justifyfirght.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.justifyfirght.Name = "justifyfirght";
-            this.justifyfirght.Size = new System.Drawing.Size(27, 27);
-            this.justifyfirght.Text = "右对齐";
-            this.justifyfirght.Click += new System.EventHandler(this.justifyfirght_Click);
-            // 
-            // justifyboth
-            // 
-            this.justifyboth.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.justifyboth.Image = global::EmrEditor.Properties.Resources.between23;
-            this.justifyboth.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.justifyboth.Name = "justifyboth";
-            this.justifyboth.Size = new System.Drawing.Size(27, 27);
-            this.justifyboth.Text = "中间对齐";
-            this.justifyboth.Click += new System.EventHandler(this.justifyboth_Click);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 30);
-            // 
-            // touppercase
-            // 
-            this.touppercase.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.touppercase.Image = global::EmrEditor.Properties.Resources.upper23;
-            this.touppercase.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.touppercase.Name = "touppercase";
-            this.touppercase.Size = new System.Drawing.Size(27, 27);
-            this.touppercase.Text = "字母大写";
-            this.touppercase.Click += new System.EventHandler(this.touppercase_Click);
-            // 
-            // tolowercase
-            // 
-            this.tolowercase.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tolowercase.Image = global::EmrEditor.Properties.Resources.lower23;
-            this.tolowercase.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tolowercase.Name = "tolowercase";
-            this.tolowercase.Size = new System.Drawing.Size(27, 27);
-            this.tolowercase.Text = "字母小写";
-            this.tolowercase.Click += new System.EventHandler(this.tolowercase_Click);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 30);
-            // 
-            // pagesplit
-            // 
-            this.pagesplit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.pagesplit.Image = global::EmrEditor.Properties.Resources.pagesplit23;
-            this.pagesplit.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.pagesplit.Name = "pagesplit";
-            this.pagesplit.Size = new System.Drawing.Size(27, 27);
-            this.pagesplit.Text = "toolStripButton3";
-            this.pagesplit.Click += new System.EventHandler(this.pagesplit_Click);
-            // 
-            // toolStripButton14
-            // 
-            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton14.Image = global::EmrEditor.Properties.Resources.fllow23;
-            this.toolStripButton14.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton14.Name = "toolStripButton14";
-            this.toolStripButton14.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton14.Text = "附件";
-            // 
-            // insertimage
-            // 
-            this.insertimage.AutoSize = false;
-            this.insertimage.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.insertimage.Image = global::EmrEditor.Properties.Resources.image23;
-            this.insertimage.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.insertimage.Name = "insertimage";
-            this.insertimage.Size = new System.Drawing.Size(27, 27);
-            this.insertimage.Text = "添加图片";
-            this.insertimage.Click += new System.EventHandler(this.insertimage_Click);
-            // 
-            // toolStripButton16
-            // 
-            this.toolStripButton16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton16.Image = global::EmrEditor.Properties.Resources.spical21;
-            this.toolStripButton16.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton16.Name = "toolStripButton16";
-            this.toolStripButton16.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton16.Text = "特殊字符";
-            // 
-            // horizontal
-            // 
-            this.horizontal.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.horizontal.Image = global::EmrEditor.Properties.Resources.splitline23;
-            this.horizontal.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.horizontal.Name = "horizontal";
-            this.horizontal.Size = new System.Drawing.Size(27, 27);
-            this.horizontal.Text = "分割线";
-            this.horizontal.Click += new System.EventHandler(this.horizontal_Click);
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 30);
-            // 
-            // date
-            // 
-            this.date.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.date.Image = global::EmrEditor.Properties.Resources.cliender23;
-            this.date.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(27, 27);
-            this.date.Text = "日期";
-            this.date.Click += new System.EventHandler(this.date_Click);
-            // 
-            // time
-            // 
-            this.time.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.time.Image = global::EmrEditor.Properties.Resources.time;
-            this.time.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(27, 27);
-            this.time.Text = "时间";
-            this.time.Click += new System.EventHandler(this.time_Click);
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripButton20
-            // 
-            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton20.Image = global::EmrEditor.Properties.Resources.table;
-            this.toolStripButton20.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton20.Name = "toolStripButton20";
-            this.toolStripButton20.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton20.Text = "表格";
-            // 
-            // toolStripButton21
-            // 
-            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton21.Image = global::EmrEditor.Properties.Resources.deltable23;
-            this.toolStripButton21.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton21.Name = "toolStripButton21";
-            this.toolStripButton21.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton21.Text = "删除表格";
-            // 
-            // toolStripButton22
-            // 
-            this.toolStripButton22.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton22.Image = global::EmrEditor.Properties.Resources.insertline1;
-            this.toolStripButton22.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton22.Name = "toolStripButton22";
-            this.toolStripButton22.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton22.Text = "表格前插入行";
-            // 
-            // toolStripButton23
-            // 
-            this.toolStripButton23.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton23.Image = global::EmrEditor.Properties.Resources.insertlinefront1;
-            this.toolStripButton23.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton23.Name = "toolStripButton23";
-            this.toolStripButton23.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton23.Text = "前插入行";
-            // 
-            // toolStripButton24
-            // 
-            this.toolStripButton24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton24.Image = global::EmrEditor.Properties.Resources.delrow23;
-            this.toolStripButton24.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton24.Name = "toolStripButton24";
-            this.toolStripButton24.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton24.Text = "删除行";
-            // 
-            // toolStripButton25
-            // 
-            this.toolStripButton25.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton25.Image = global::EmrEditor.Properties.Resources.insertcolumn;
-            this.toolStripButton25.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton25.Name = "toolStripButton25";
-            this.toolStripButton25.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton25.Text = "前插入列";
-            // 
-            // toolStripButton26
-            // 
-            this.toolStripButton26.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton26.Image = global::EmrEditor.Properties.Resources.delcolumn23;
-            this.toolStripButton26.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton26.Name = "toolStripButton26";
-            this.toolStripButton26.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton26.Text = "删除列";
-            // 
-            // toolStripButton27
-            // 
-            this.toolStripButton27.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton27.Image = global::EmrEditor.Properties.Resources.unioncell;
-            this.toolStripButton27.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton27.Name = "toolStripButton27";
-            this.toolStripButton27.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton27.Text = "合并单元格";
-            // 
-            // toolStripButton28
-            // 
-            this.toolStripButton28.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton28.Image = global::EmrEditor.Properties.Resources.rightunion;
-            this.toolStripButton28.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton28.Name = "toolStripButton28";
-            this.toolStripButton28.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton28.Text = "右合并单元格";
-            // 
-            // toolStripButton29
-            // 
-            this.toolStripButton29.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton29.Image = global::EmrEditor.Properties.Resources.downunion;
-            this.toolStripButton29.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton29.Name = "toolStripButton29";
-            this.toolStripButton29.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton29.Text = "下合并单元格";
-            // 
-            // toolStripButton30
-            // 
-            this.toolStripButton30.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton30.Image = global::EmrEditor.Properties.Resources.splitcell;
-            this.toolStripButton30.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton30.Name = "toolStripButton30";
-            this.toolStripButton30.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton30.Text = "拆分单元格";
-            // 
-            // toolStripButton31
-            // 
-            this.toolStripButton31.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton31.Image = global::EmrEditor.Properties.Resources.splitrow;
-            this.toolStripButton31.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton31.Name = "toolStripButton31";
-            this.toolStripButton31.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton31.Text = "拆分成行";
-            // 
-            // toolStripButton32
-            // 
-            this.toolStripButton32.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton32.Image = global::EmrEditor.Properties.Resources.splitcolumn;
-            this.toolStripButton32.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton32.Name = "toolStripButton32";
-            this.toolStripButton32.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton32.Text = "拆分成列";
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 30);
-            // 
-            // print
-            // 
-            this.print.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.print.Image = global::EmrEditor.Properties.Resources.Print;
-            this.print.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.print.Name = "print";
-            this.print.Size = new System.Drawing.Size(27, 27);
-            this.print.Text = "打印";
-            this.print.Click += new System.EventHandler(this.print_Click);
-            // 
-            // preview
-            // 
-            this.preview.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.preview.Image = global::EmrEditor.Properties.Resources.preview;
-            this.preview.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.preview.Name = "preview";
-            this.preview.Size = new System.Drawing.Size(27, 27);
-            this.preview.Text = "预览";
-            this.preview.Click += new System.EventHandler(this.preview_Click);
-            // 
-            // toolStripButton35
-            // 
-            this.toolStripButton35.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton35.Image = global::EmrEditor.Properties.Resources.lookfor;
-            this.toolStripButton35.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton35.Name = "toolStripButton35";
-            this.toolStripButton35.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton35.Text = "查找替换";
-            // 
-            // 大圆圈ToolStripMenuItem
-            // 
-            this.大圆圈ToolStripMenuItem.Name = "大圆圈ToolStripMenuItem";
-            this.大圆圈ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.大圆圈ToolStripMenuItem.Tag = "circle";
-            this.大圆圈ToolStripMenuItem.Text = "○大圆圈";
-            this.大圆圈ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
-            // 
-            // 小圆点ToolStripMenuItem
-            // 
-            this.小圆点ToolStripMenuItem.Name = "小圆点ToolStripMenuItem";
-            this.小圆点ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.小圆点ToolStripMenuItem.Tag = "disc";
-            this.小圆点ToolStripMenuItem.Text = "●小圆点";
-            this.小圆点ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
-            // 
-            // 小方块ToolStripMenuItem
-            // 
-            this.小方块ToolStripMenuItem.Name = "小方块ToolStripMenuItem";
-            this.小方块ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.小方块ToolStripMenuItem.Tag = "square";
-            this.小方块ToolStripMenuItem.Text = "■小方块";
-            this.小方块ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
-            // 
-            // 破折号ToolStripMenuItem
-            // 
-            this.破折号ToolStripMenuItem.Name = "破折号ToolStripMenuItem";
-            this.破折号ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.破折号ToolStripMenuItem.Tag = "dash";
-            this.破折号ToolStripMenuItem.Text = "-破折号";
-            this.破折号ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
-            // 
-            // 小圆圈ToolStripMenuItem
-            // 
-            this.小圆圈ToolStripMenuItem.Name = "小圆圈ToolStripMenuItem";
-            this.小圆圈ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.小圆圈ToolStripMenuItem.Tag = "dot";
-            this.小圆圈ToolStripMenuItem.Text = "°小圆圈";
-            this.小圆圈ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
             // 
             // EEditor
             // 
@@ -1372,19 +1415,19 @@
         private System.Windows.Forms.ToolStripButton date;
         private System.Windows.Forms.ToolStripButton time;
         private System.Windows.Forms.ToolStripButton toolStripButton20;
-        private System.Windows.Forms.ToolStripButton toolStripButton21;
-        private System.Windows.Forms.ToolStripButton toolStripButton22;
-        private System.Windows.Forms.ToolStripButton toolStripButton23;
-        private System.Windows.Forms.ToolStripButton toolStripButton24;
+        private System.Windows.Forms.ToolStripButton deletetable;
+        private System.Windows.Forms.ToolStripButton insertparagraphbeforetable;
+        private System.Windows.Forms.ToolStripButton insertrow;
+        private System.Windows.Forms.ToolStripButton deleterow;
         private System.Windows.Forms.ToolStripButton indent;
-        private System.Windows.Forms.ToolStripButton toolStripButton25;
-        private System.Windows.Forms.ToolStripButton toolStripButton26;
-        private System.Windows.Forms.ToolStripButton toolStripButton27;
-        private System.Windows.Forms.ToolStripButton toolStripButton28;
-        private System.Windows.Forms.ToolStripButton toolStripButton29;
-        private System.Windows.Forms.ToolStripButton toolStripButton30;
-        private System.Windows.Forms.ToolStripButton toolStripButton31;
-        private System.Windows.Forms.ToolStripButton toolStripButton32;
+        private System.Windows.Forms.ToolStripButton insertcol;
+        private System.Windows.Forms.ToolStripButton deletecol;
+        private System.Windows.Forms.ToolStripButton mergecells;
+        private System.Windows.Forms.ToolStripButton mergeright;
+        private System.Windows.Forms.ToolStripButton mergedown;
+        private System.Windows.Forms.ToolStripButton splittocells;
+        private System.Windows.Forms.ToolStripButton splittorows;
+        private System.Windows.Forms.ToolStripButton splittocols;
         private System.Windows.Forms.ToolStripButton print;
         private System.Windows.Forms.ToolStripButton preview;
         private System.Windows.Forms.ToolStripButton toolStripButton35;
@@ -1433,6 +1476,10 @@
         private System.Windows.Forms.ToolStripMenuItem 小方块ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 破折号ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 小圆圈ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.ToolStripTextBox rowNum;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel2;
+        private System.Windows.Forms.ToolStripTextBox colNum;
     }
 }
 

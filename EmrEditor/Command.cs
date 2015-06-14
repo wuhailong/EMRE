@@ -288,7 +288,59 @@ namespace EmrEditor
                     //webapp	插入百度应用
                     result = browser.Document.InvokeScript("webapp");
                     break;
-
+                case "inserttable":
+                    //webapp	插入百度应用
+                    result = browser.Document.InvokeScript("inserttable",prams);
+                    break;
+                case "deletetable":
+                    //deletetable	删除表
+                    result = browser.Document.InvokeScript("deletetable");
+                    break;
+                case "insertparagraphbeforetable":
+                    //insertparagraphbeforetable	前插入段落
+                    result = browser.Document.InvokeScript("insertparagraphbeforetable");
+                    break;
+                case "insertrow":
+                    //insertrow	前插入行
+                    result = browser.Document.InvokeScript("insertrow");
+                    break;
+                case "deleterow":
+                    //deleterow	删除行
+                    result = browser.Document.InvokeScript("deleterow");
+                    break;
+                case "insertcol":
+                    //insertcol	插入列
+                    result = browser.Document.InvokeScript("insertcol");
+                    break;
+                case "deletecol":
+                    //deletecol	删除列
+                    result = browser.Document.InvokeScript("deletecol");
+                    break;
+                case "mergecells":
+                    //mergecells	合并单元格
+                    result = browser.Document.InvokeScript("mergecells");
+                    break;
+                case "mergeright":
+                    //mergeright	向右合并
+                    result = browser.Document.InvokeScript("mergeright");
+                    break;
+                case "mergedown":
+                    //mergedown	向下合并
+                    result = browser.Document.InvokeScript("mergedown");
+                    break;
+                case "splittocells":
+                    //insertrow	前插入行
+                    result = browser.Document.InvokeScript("splittocells");
+                    break;
+                case "splittorows":
+                    //insertrow	前插入行
+                    result = browser.Document.InvokeScript("splittorows");
+                    break;
+                case "splittocols":
+                    //insertrow	前插入行
+                    result = browser.Document.InvokeScript("splittocols");
+                    break;
+                    
                 default:
                     break;
 
