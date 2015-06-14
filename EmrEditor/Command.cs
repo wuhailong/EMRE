@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Security.Permissions;
 using System.Windows.Forms;
+using EMRE;
 
 namespace EmrEditor
 {
@@ -25,7 +26,7 @@ namespace EmrEditor
         ///	tolowercase	把选区内文本变小写，与“touppercase”命令互斥
         ///	customstyle	根据config配置文件里“customstyle”选项的值对匹配的标签执行样式替换。
         ///	directionality	文字输入方向
-        /// forecolor	字体颜色
+        /// fontcolor	字体颜色
         ///	backcolor	字体背景颜色
         ///	fontsize	字体大小
         ///	fontfamily	字体样式
@@ -64,8 +65,8 @@ namespace EmrEditor
         /// webapp	插入百度应用
         /// </summary>
         /// <param name="p_strType">命令字符</param>
-        /// <param name="browser">WebBrowser控件</param>
-        public void Invoke(string p_strType, WebBrowser browser)
+        /// <param name="browser">在哪个WebBrowser控件中执行命令</param>
+        public void Invoke(string p_strType, WebBrowser browser, params object[] prams)
         {
             object result = null;
             switch (p_strType)
@@ -124,19 +125,19 @@ namespace EmrEditor
                     break;
                 case "forecolor":
                     //forecolor	字体颜色
-                    result = browser.Document.InvokeScript("forecolor");
+                    result = browser.Document.InvokeScript("forecolor", prams);
                     break;
                 case "backcolor":
                     //backcolor	字体背景颜色
-                    result = browser.Document.InvokeScript("backcolor");
+                    result = browser.Document.InvokeScript("backcolor", prams);
                     break;
                 case "fontsize":
                     //fontsize	字体大小
-                    result = browser.Document.InvokeScript("fontsize");
+                    result = browser.Document.InvokeScript("fontsize", prams);
                     break;
                 case "fontfamily":
                     //fontfamily	字体样式
-                    result = browser.Document.InvokeScript("fontfamily");
+                    result = browser.Document.InvokeScript("fontfamily", prams);
                     break;
                 case "underline":
                     //underline	字体下划线,与删除线互斥
@@ -184,11 +185,27 @@ namespace EmrEditor
                     break;
                 case "justify":
                     //justify	段落对齐方式
-                    result = browser.Document.InvokeScript("justify");
+                    if (prams[0].ToString()=="right")
+                    {
+                        result = browser.Document.InvokeScript("justifyR");
+                    }
+                    else if (prams[0].ToString()=="left")
+                    {
+                        result = browser.Document.InvokeScript("justifyL");
+                    }
+                    else if (prams[0].ToString() == "center")
+                    {
+                        result = browser.Document.InvokeScript("justifyC");
+                    }
+                    else if (prams[0].ToString() == "both")
+                    {
+                        result = browser.Document.InvokeScript("justifyB");
+                    }
+                    
                     break;
                 case "lineheight":
                     //lineheight	行距
-                    result = browser.Document.InvokeScript("lineheight");
+                    result = browser.Document.InvokeScript("lineheight",prams);
                     break;
                 case "link":
                     //link	插入超链接
@@ -200,11 +217,11 @@ namespace EmrEditor
                     break;
                 case "insertorderedlist":
                     //insertorderedlist	有序列表，与“insertunorderedlist”命令互斥
-                    result = browser.Document.InvokeScript("insertorderedlist");
+                    result = browser.Document.InvokeScript("insertorderedlist", prams);
                     break;
                 case "insertunorderedlist":
                     //insertunorderedlist	无序列表，与“insertorderedlist”命令互斥
-                    result = browser.Document.InvokeScript("insertunorderedlist");
+                    result = browser.Document.InvokeScript("insertunorderedlist", prams);
                     break;
                 case "pagebreak":
                     //pagebreak	插入分页符
@@ -212,11 +229,11 @@ namespace EmrEditor
                     break;
                 case "paragraph":
                     //paragraph	段落格式
-                    result = browser.Document.InvokeScript("paragraph");
+                    result = browser.Document.InvokeScript("paragraph", prams);
                     break;
                 case "preview":
                     //preview	预览
-                    result = browser.Document.InvokeScript("bold");
+                    result = browser.Document.InvokeScript("preview");
                     break;
                 case "print":
                     //print	打印
@@ -230,10 +247,15 @@ namespace EmrEditor
                     //removeformat	清除文字样式
                     result = browser.Document.InvokeScript("removeformat");
                     break;
-                case "rowspacing":
+                case "rowspacingtop":
                     //rowspacing	设置段间距
-                    result = browser.Document.InvokeScript("rowspacing");
+                    result = browser.Document.InvokeScript("rowspacingtop", prams);
                     break;
+                case "rowspacingbottom":
+                    //rowspacing	设置段间距
+                    result = browser.Document.InvokeScript("rowspacingbottom", prams);
+                    break;
+                  
                 case "selectall":
                     //selectall	选中所有内容
                     result = browser.Document.InvokeScript("selectall");

@@ -243,6 +243,36 @@ namespace EmrEditor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap fontbackcolor {
+            get {
+                object obj = ResourceManager.GetObject("fontbackcolor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap fontcolor23 {
+            get {
+                object obj = ResourceManager.GetObject("fontcolor23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap forecolor232 {
+            get {
+                object obj = ResourceManager.GetObject("forecolor232", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap i2 {
             get {
                 object obj = ResourceManager.GetObject("i2", resourceCulture);
@@ -516,6 +546,16 @@ namespace EmrEditor.Properties {
         internal static System.Drawing.Bitmap midline23 {
             get {
                 object obj = ResourceManager.GetObject("midline23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap pagesplit23 {
+            get {
+                object obj = ResourceManager.GetObject("pagesplit23", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -56,28 +56,75 @@
             this.帮助HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wb_editor = new System.Windows.Forms.WebBrowser();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.undo = new System.Windows.Forms.ToolStripButton();
+            this.redo = new System.Windows.Forms.ToolStripButton();
+            this.nold = new System.Windows.Forms.ToolStripButton();
+            this.italic = new System.Windows.Forms.ToolStripButton();
+            this.underline = new System.Windows.Forms.ToolStripButton();
+            this.fontborder = new System.Windows.Forms.ToolStripButton();
+            this.strikethrough = new System.Windows.Forms.ToolStripButton();
+            this.superscript = new System.Windows.Forms.ToolStripButton();
+            this.subscript = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.fontcolor = new System.Windows.Forms.ToolStripButton();
+            this.backcolor = new System.Windows.Forms.ToolStripButton();
+            this.insertorderedlist = new System.Windows.Forms.ToolStripSplitButton();
+            this.toolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem21 = new System.Windows.Forms.ToolStripMenuItem();
+            this.一二三ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.一二三ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.一二三ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.abcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBCToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.iiiiiiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iIIIIIToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.insertunorderedlist = new System.Windows.Forms.ToolStripSplitButton();
+            this.rowspacingUp = new System.Windows.Forms.ToolStripSplitButton();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.rowspacingDown = new System.Windows.Forms.ToolStripSplitButton();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
+            this.lineheight = new System.Windows.Forms.ToolStripSplitButton();
+            this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem13 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem15 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem18 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripComboBox2 = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripComboBox3 = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripComboBox4 = new System.Windows.Forms.ToolStripComboBox();
+            this.Paragraph = new System.Windows.Forms.ToolStripComboBox();
+            this.fontfamily = new System.Windows.Forms.ToolStripComboBox();
+            this.fontsize = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripComboBox5 = new System.Windows.Forms.ToolStripComboBox();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.indent = new System.Windows.Forms.ToolStripButton();
             this.justifyleft = new System.Windows.Forms.ToolStripButton();
             this.justifymid = new System.Windows.Forms.ToolStripButton();
             this.justifyfirght = new System.Windows.Forms.ToolStripButton();
             this.justifyboth = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton12 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.touppercase = new System.Windows.Forms.ToolStripButton();
+            this.tolowercase = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.pagesplit = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
+            this.insertimage = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
+            this.horizontal = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.date = new System.Windows.Forms.ToolStripButton();
             this.time = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton22 = new System.Windows.Forms.ToolStripButton();
@@ -91,27 +138,16 @@
             this.toolStripButton30 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton31 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton32 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.print = new System.Windows.Forms.ToolStripButton();
             this.preview = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton35 = new System.Windows.Forms.ToolStripButton();
-            this.undo = new System.Windows.Forms.ToolStripButton();
-            this.redo = new System.Windows.Forms.ToolStripButton();
-            this.nold = new System.Windows.Forms.ToolStripButton();
-            this.italic = new System.Windows.Forms.ToolStripButton();
-            this.underline = new System.Windows.Forms.ToolStripButton();
-            this.fontborder = new System.Windows.Forms.ToolStripButton();
-            this.strikethrough = new System.Windows.Forms.ToolStripButton();
-            this.superscript = new System.Windows.Forms.ToolStripButton();
-            this.subscript = new System.Windows.Forms.ToolStripButton();
-            this.insertorderedlist = new System.Windows.Forms.ToolStripDropDownButton();
-            this.insertunorderedlist = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
-            this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
-            this.lineheight = new System.Windows.Forms.ToolStripSplitButton();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripComboBox5 = new System.Windows.Forms.ToolStripComboBox();
+            this.colorDialog = new System.Windows.Forms.ColorDialog();
+            this.大圆圈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.小圆点ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.小方块ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.破折号ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.小圆圈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
@@ -316,11 +352,10 @@
             // wb_editor
             // 
             this.wb_editor.AllowWebBrowserDrop = false;
-            this.wb_editor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.wb_editor.Location = new System.Drawing.Point(0, 25);
+            this.wb_editor.Location = new System.Drawing.Point(0, 88);
             this.wb_editor.MinimumSize = new System.Drawing.Size(20, 20);
             this.wb_editor.Name = "wb_editor";
-            this.wb_editor.Size = new System.Drawing.Size(1164, 705);
+            this.wb_editor.Size = new System.Drawing.Size(1164, 579);
             this.wb_editor.TabIndex = 1;
             this.wb_editor.Url = new System.Uri("", System.UriKind.Relative);
             // 
@@ -338,16 +373,18 @@
             this.superscript,
             this.subscript,
             this.toolStripSeparator1,
+            this.fontcolor,
+            this.backcolor,
             this.insertorderedlist,
             this.insertunorderedlist,
-            this.toolStripSplitButton1,
-            this.toolStripSplitButton2,
+            this.rowspacingUp,
+            this.rowspacingDown,
             this.lineheight,
             this.toolStripSeparator2,
             this.toolStripComboBox1,
-            this.toolStripComboBox2,
-            this.toolStripComboBox3,
-            this.toolStripComboBox4,
+            this.Paragraph,
+            this.fontfamily,
+            this.fontsize,
             this.toolStripComboBox5});
             this.toolStrip1.Location = new System.Drawing.Point(0, 25);
             this.toolStrip1.MinimumSize = new System.Drawing.Size(30, 30);
@@ -356,10 +393,435 @@
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
+            // undo
+            // 
+            this.undo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.undo.Image = global::EmrEditor.Properties.Resources.undo;
+            this.undo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.undo.Name = "undo";
+            this.undo.Size = new System.Drawing.Size(27, 27);
+            this.undo.Text = "撤销";
+            this.undo.Click += new System.EventHandler(this.undo_Click);
+            // 
+            // redo
+            // 
+            this.redo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.redo.Image = global::EmrEditor.Properties.Resources.redo;
+            this.redo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.redo.Name = "redo";
+            this.redo.Size = new System.Drawing.Size(27, 27);
+            this.redo.Text = "重做";
+            this.redo.Click += new System.EventHandler(this.redo_Click);
+            // 
+            // nold
+            // 
+            this.nold.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.nold.Image = global::EmrEditor.Properties.Resources.blod23;
+            this.nold.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.nold.Name = "nold";
+            this.nold.Size = new System.Drawing.Size(27, 27);
+            this.nold.Text = "加粗";
+            this.nold.Click += new System.EventHandler(this.toolStripButton39_Click);
+            // 
+            // italic
+            // 
+            this.italic.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.italic.Image = global::EmrEditor.Properties.Resources.italic23;
+            this.italic.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.italic.Name = "italic";
+            this.italic.Size = new System.Drawing.Size(27, 27);
+            this.italic.Text = "斜体";
+            this.italic.Click += new System.EventHandler(this.italic_Click);
+            // 
+            // underline
+            // 
+            this.underline.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.underline.Image = global::EmrEditor.Properties.Resources.underline23;
+            this.underline.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.underline.Name = "underline";
+            this.underline.Size = new System.Drawing.Size(27, 27);
+            this.underline.Text = "下划线";
+            this.underline.Click += new System.EventHandler(this.underline_Click);
+            // 
+            // fontborder
+            // 
+            this.fontborder.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.fontborder.Image = global::EmrEditor.Properties.Resources.borderline23;
+            this.fontborder.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.fontborder.Name = "fontborder";
+            this.fontborder.Size = new System.Drawing.Size(27, 27);
+            this.fontborder.Text = "字符边框";
+            this.fontborder.Click += new System.EventHandler(this.fontborder_Click);
+            // 
+            // strikethrough
+            // 
+            this.strikethrough.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.strikethrough.Image = global::EmrEditor.Properties.Resources.midline23;
+            this.strikethrough.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.strikethrough.Name = "strikethrough";
+            this.strikethrough.Size = new System.Drawing.Size(27, 27);
+            this.strikethrough.Text = "删除线";
+            this.strikethrough.Click += new System.EventHandler(this.strikethrough_Click);
+            // 
+            // superscript
+            // 
+            this.superscript.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.superscript.Image = global::EmrEditor.Properties.Resources.upnum23;
+            this.superscript.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.superscript.Name = "superscript";
+            this.superscript.Size = new System.Drawing.Size(27, 27);
+            this.superscript.Text = "上标";
+            this.superscript.Click += new System.EventHandler(this.superscript_Click);
+            // 
+            // subscript
+            // 
+            this.subscript.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.subscript.Image = global::EmrEditor.Properties.Resources.downnum23;
+            this.subscript.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.subscript.Name = "subscript";
+            this.subscript.Size = new System.Drawing.Size(27, 27);
+            this.subscript.Text = "下标";
+            this.subscript.Click += new System.EventHandler(this.subscript_Click);
+            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 30);
+            // 
+            // fontcolor
+            // 
+            this.fontcolor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.fontcolor.Image = global::EmrEditor.Properties.Resources.forecolor232;
+            this.fontcolor.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.fontcolor.Name = "fontcolor";
+            this.fontcolor.Size = new System.Drawing.Size(27, 27);
+            this.fontcolor.Text = "字体颜色";
+            this.fontcolor.Click += new System.EventHandler(this.fontcolor_Click);
+            // 
+            // backcolor
+            // 
+            this.backcolor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.backcolor.Image = global::EmrEditor.Properties.Resources.fontbackcolor;
+            this.backcolor.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.backcolor.Name = "backcolor";
+            this.backcolor.Size = new System.Drawing.Size(27, 27);
+            this.backcolor.Text = "文字背景色";
+            this.backcolor.Click += new System.EventHandler(this.backcolor_Click);
+            // 
+            // insertorderedlist
+            // 
+            this.insertorderedlist.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.insertorderedlist.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem19,
+            this.toolStripMenuItem20,
+            this.toolStripMenuItem21,
+            this.一二三ToolStripMenuItem,
+            this.一二三ToolStripMenuItem1,
+            this.一二三ToolStripMenuItem2,
+            this.abcToolStripMenuItem,
+            this.aBCToolStripMenuItem1,
+            this.iiiiiiToolStripMenuItem,
+            this.iIIIIIToolStripMenuItem1});
+            this.insertorderedlist.Image = global::EmrEditor.Properties.Resources.sortnum23;
+            this.insertorderedlist.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.insertorderedlist.Name = "insertorderedlist";
+            this.insertorderedlist.Size = new System.Drawing.Size(39, 27);
+            this.insertorderedlist.Text = "有序列表";
+            // 
+            // toolStripMenuItem19
+            // 
+            this.toolStripMenuItem19.Checked = true;
+            this.toolStripMenuItem19.CheckOnClick = true;
+            this.toolStripMenuItem19.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.toolStripMenuItem19.Name = "toolStripMenuItem19";
+            this.toolStripMenuItem19.Size = new System.Drawing.Size(199, 22);
+            this.toolStripMenuItem19.Tag = "num";
+            this.toolStripMenuItem19.Text = "1,2,3...";
+            this.toolStripMenuItem19.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem20
+            // 
+            this.toolStripMenuItem20.CheckOnClick = true;
+            this.toolStripMenuItem20.Name = "toolStripMenuItem20";
+            this.toolStripMenuItem20.Size = new System.Drawing.Size(199, 22);
+            this.toolStripMenuItem20.Tag = "num1";
+            this.toolStripMenuItem20.Text = "1),2),3)...";
+            this.toolStripMenuItem20.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem21
+            // 
+            this.toolStripMenuItem21.CheckOnClick = true;
+            this.toolStripMenuItem21.Name = "toolStripMenuItem21";
+            this.toolStripMenuItem21.Size = new System.Drawing.Size(199, 22);
+            this.toolStripMenuItem21.Tag = "num2";
+            this.toolStripMenuItem21.Text = "(1),(2),(3)...";
+            this.toolStripMenuItem21.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // 一二三ToolStripMenuItem
+            // 
+            this.一二三ToolStripMenuItem.CheckOnClick = true;
+            this.一二三ToolStripMenuItem.Name = "一二三ToolStripMenuItem";
+            this.一二三ToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.一二三ToolStripMenuItem.Tag = "cn";
+            this.一二三ToolStripMenuItem.Text = "一,二,三...";
+            this.一二三ToolStripMenuItem.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // 一二三ToolStripMenuItem1
+            // 
+            this.一二三ToolStripMenuItem1.CheckOnClick = true;
+            this.一二三ToolStripMenuItem1.Name = "一二三ToolStripMenuItem1";
+            this.一二三ToolStripMenuItem1.Size = new System.Drawing.Size(199, 22);
+            this.一二三ToolStripMenuItem1.Tag = "cn1";
+            this.一二三ToolStripMenuItem1.Text = "一）,二）,三）...";
+            this.一二三ToolStripMenuItem1.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // 一二三ToolStripMenuItem2
+            // 
+            this.一二三ToolStripMenuItem2.CheckOnClick = true;
+            this.一二三ToolStripMenuItem2.Name = "一二三ToolStripMenuItem2";
+            this.一二三ToolStripMenuItem2.Size = new System.Drawing.Size(199, 22);
+            this.一二三ToolStripMenuItem2.Tag = "cn2";
+            this.一二三ToolStripMenuItem2.Text = "（一）,（二）,（三）...";
+            this.一二三ToolStripMenuItem2.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // abcToolStripMenuItem
+            // 
+            this.abcToolStripMenuItem.CheckOnClick = true;
+            this.abcToolStripMenuItem.Name = "abcToolStripMenuItem";
+            this.abcToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.abcToolStripMenuItem.Tag = "lower-alpha";
+            this.abcToolStripMenuItem.Text = "a,b,c...";
+            this.abcToolStripMenuItem.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // aBCToolStripMenuItem1
+            // 
+            this.aBCToolStripMenuItem1.CheckOnClick = true;
+            this.aBCToolStripMenuItem1.Name = "aBCToolStripMenuItem1";
+            this.aBCToolStripMenuItem1.Size = new System.Drawing.Size(199, 22);
+            this.aBCToolStripMenuItem1.Tag = "upper-alpha";
+            this.aBCToolStripMenuItem1.Text = "A,B,C...";
+            this.aBCToolStripMenuItem1.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // iiiiiiToolStripMenuItem
+            // 
+            this.iiiiiiToolStripMenuItem.CheckOnClick = true;
+            this.iiiiiiToolStripMenuItem.Name = "iiiiiiToolStripMenuItem";
+            this.iiiiiiToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.iiiiiiToolStripMenuItem.Tag = "lower-roman";
+            this.iiiiiiToolStripMenuItem.Text = "i,ii,iii...";
+            this.iiiiiiToolStripMenuItem.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // iIIIIIToolStripMenuItem1
+            // 
+            this.iIIIIIToolStripMenuItem1.CheckOnClick = true;
+            this.iIIIIIToolStripMenuItem1.Name = "iIIIIIToolStripMenuItem1";
+            this.iIIIIIToolStripMenuItem1.Size = new System.Drawing.Size(199, 22);
+            this.iIIIIIToolStripMenuItem1.Tag = "upper-roman";
+            this.iIIIIIToolStripMenuItem1.Text = "I,II,III...";
+            this.iIIIIIToolStripMenuItem1.Click += new System.EventHandler(this.InsertOrderedListToolStripMenuItem_Click);
+            // 
+            // insertunorderedlist
+            // 
+            this.insertunorderedlist.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.insertunorderedlist.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.大圆圈ToolStripMenuItem,
+            this.小圆点ToolStripMenuItem,
+            this.小方块ToolStripMenuItem,
+            this.破折号ToolStripMenuItem,
+            this.小圆圈ToolStripMenuItem});
+            this.insertunorderedlist.Image = global::EmrEditor.Properties.Resources.sortpoint23;
+            this.insertunorderedlist.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.insertunorderedlist.Name = "insertunorderedlist";
+            this.insertunorderedlist.Size = new System.Drawing.Size(39, 27);
+            this.insertunorderedlist.Text = "无序列表";
+            // 
+            // rowspacingUp
+            // 
+            this.rowspacingUp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.rowspacingUp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3,
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem5,
+            this.toolStripMenuItem6});
+            this.rowspacingUp.Image = global::EmrEditor.Properties.Resources.lineup23;
+            this.rowspacingUp.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.rowspacingUp.Name = "rowspacingUp";
+            this.rowspacingUp.Size = new System.Drawing.Size(39, 27);
+            this.rowspacingUp.Text = "段前距";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Checked = true;
+            this.toolStripMenuItem2.CheckOnClick = true;
+            this.toolStripMenuItem2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem2.Text = "5";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.CheckOnClick = true;
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem3.Text = "10";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.CheckOnClick = true;
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem4.Text = "15";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.CheckOnClick = true;
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem5.Text = "20";
+            this.toolStripMenuItem5.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.CheckOnClick = true;
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem6.Text = "25";
+            this.toolStripMenuItem6.Click += new System.EventHandler(this.RowSpacingUpToolStripMenuItem_Click);
+            // 
+            // rowspacingDown
+            // 
+            this.rowspacingDown.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.rowspacingDown.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem7,
+            this.toolStripMenuItem8,
+            this.toolStripMenuItem9,
+            this.toolStripMenuItem10,
+            this.toolStripMenuItem11});
+            this.rowspacingDown.Image = global::EmrEditor.Properties.Resources.linedown23;
+            this.rowspacingDown.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.rowspacingDown.Name = "rowspacingDown";
+            this.rowspacingDown.Size = new System.Drawing.Size(39, 27);
+            this.rowspacingDown.Text = "段后距";
+            // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.Checked = true;
+            this.toolStripMenuItem7.CheckOnClick = true;
+            this.toolStripMenuItem7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem7.Text = "5";
+            this.toolStripMenuItem7.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem8
+            // 
+            this.toolStripMenuItem8.CheckOnClick = true;
+            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem8.Text = "10";
+            this.toolStripMenuItem8.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem9
+            // 
+            this.toolStripMenuItem9.CheckOnClick = true;
+            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem9.Text = "15";
+            this.toolStripMenuItem9.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem10
+            // 
+            this.toolStripMenuItem10.CheckOnClick = true;
+            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem10.Text = "20";
+            this.toolStripMenuItem10.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem11
+            // 
+            this.toolStripMenuItem11.CheckOnClick = true;
+            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem11.Text = "25";
+            this.toolStripMenuItem11.Click += new System.EventHandler(this.RowSpacingDownToolStripMenuItem_Click);
+            // 
+            // lineheight
+            // 
+            this.lineheight.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.lineheight.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem12,
+            this.toolStripMenuItem13,
+            this.toolStripMenuItem14,
+            this.toolStripMenuItem15,
+            this.toolStripMenuItem16,
+            this.toolStripMenuItem17,
+            this.toolStripMenuItem18});
+            this.lineheight.Image = global::EmrEditor.Properties.Resources.rowbetween;
+            this.lineheight.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.lineheight.Name = "lineheight";
+            this.lineheight.Size = new System.Drawing.Size(39, 27);
+            this.lineheight.Text = "行间距";
+            // 
+            // toolStripMenuItem12
+            // 
+            this.toolStripMenuItem12.CheckOnClick = true;
+            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem12.Text = "1";
+            this.toolStripMenuItem12.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem13
+            // 
+            this.toolStripMenuItem13.Checked = true;
+            this.toolStripMenuItem13.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.toolStripMenuItem13.Name = "toolStripMenuItem13";
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem13.Text = "1.5";
+            this.toolStripMenuItem13.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem14
+            // 
+            this.toolStripMenuItem14.CheckOnClick = true;
+            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem14.Text = "1.75";
+            this.toolStripMenuItem14.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem15
+            // 
+            this.toolStripMenuItem15.CheckOnClick = true;
+            this.toolStripMenuItem15.Name = "toolStripMenuItem15";
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem15.Text = "2";
+            this.toolStripMenuItem15.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem16
+            // 
+            this.toolStripMenuItem16.CheckOnClick = true;
+            this.toolStripMenuItem16.Name = "toolStripMenuItem16";
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem16.Text = "3";
+            this.toolStripMenuItem16.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem17
+            // 
+            this.toolStripMenuItem17.CheckOnClick = true;
+            this.toolStripMenuItem17.Name = "toolStripMenuItem17";
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem17.Text = "4";
+            this.toolStripMenuItem17.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem18
+            // 
+            this.toolStripMenuItem18.CheckOnClick = true;
+            this.toolStripMenuItem18.Name = "toolStripMenuItem18";
+            this.toolStripMenuItem18.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem18.Text = "5";
+            this.toolStripMenuItem18.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
@@ -368,23 +830,70 @@
             // 
             // toolStripComboBox1
             // 
+            this.toolStripComboBox1.Items.AddRange(new object[] {
+            "自定义标题",
+            "标题居中",
+            "标题居左",
+            "强调",
+            "明显强调"});
             this.toolStripComboBox1.Name = "toolStripComboBox1";
             this.toolStripComboBox1.Size = new System.Drawing.Size(121, 30);
+            this.toolStripComboBox1.Text = "自定义标题";
             // 
-            // toolStripComboBox2
+            // Paragraph
             // 
-            this.toolStripComboBox2.Name = "toolStripComboBox2";
-            this.toolStripComboBox2.Size = new System.Drawing.Size(121, 30);
+            this.Paragraph.Items.AddRange(new object[] {
+            "段落   -p",
+            "标题1 -h1",
+            "标题2 -h2",
+            "标题3 -h3",
+            "标题4 -h4",
+            "标题5 -h5",
+            "标题6 -h6"});
+            this.Paragraph.Name = "Paragraph";
+            this.Paragraph.Size = new System.Drawing.Size(121, 30);
+            this.Paragraph.Text = "段落 -p";
+            this.Paragraph.SelectedIndexChanged += new System.EventHandler(this.Paragraph_SelectedIndexChanged);
             // 
-            // toolStripComboBox3
+            // fontfamily
             // 
-            this.toolStripComboBox3.Name = "toolStripComboBox3";
-            this.toolStripComboBox3.Size = new System.Drawing.Size(121, 30);
+            this.fontfamily.Items.AddRange(new object[] {
+            "宋体",
+            "微软雅黑",
+            "楷体",
+            "黑体",
+            "隶书",
+            "andale mono",
+            "arial",
+            "arial black",
+            "comic sans ms",
+            "impact",
+            "times new roman"});
+            this.fontfamily.Name = "fontfamily";
+            this.fontfamily.Size = new System.Drawing.Size(121, 30);
+            this.fontfamily.Text = "arial";
+            this.fontfamily.SelectedIndexChanged += new System.EventHandler(this.fontfamily_SelectedIndexChanged);
             // 
-            // toolStripComboBox4
+            // fontsize
             // 
-            this.toolStripComboBox4.Name = "toolStripComboBox4";
-            this.toolStripComboBox4.Size = new System.Drawing.Size(121, 30);
+            this.fontsize.Items.AddRange(new object[] {
+            "10px",
+            "11px",
+            "12px",
+            "14px",
+            "16px",
+            "18px",
+            "20px",
+            "24px"});
+            this.fontsize.Name = "fontsize";
+            this.fontsize.Size = new System.Drawing.Size(121, 30);
+            this.fontsize.Text = "16px";
+            this.fontsize.SelectedIndexChanged += new System.EventHandler(this.fontsize_SelectedIndexChanged);
+            // 
+            // toolStripComboBox5
+            // 
+            this.toolStripComboBox5.Name = "toolStripComboBox5";
+            this.toolStripComboBox5.Size = new System.Drawing.Size(121, 30);
             // 
             // toolStrip2
             // 
@@ -396,13 +905,14 @@
             this.justifyfirght,
             this.justifyboth,
             this.toolStripSeparator3,
-            this.toolStripButton12,
-            this.toolStripButton13,
+            this.touppercase,
+            this.tolowercase,
             this.toolStripSeparator4,
+            this.pagesplit,
             this.toolStripButton14,
-            this.toolStripButton15,
+            this.insertimage,
             this.toolStripButton16,
-            this.toolStripButton17,
+            this.horizontal,
             this.toolStripSeparator7,
             this.date,
             this.time,
@@ -431,16 +941,6 @@
             this.toolStrip2.TabIndex = 3;
             this.toolStrip2.Text = "toolStrip2";
             // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 30);
-            // 
             // indent
             // 
             this.indent.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -449,6 +949,7 @@
             this.indent.Name = "indent";
             this.indent.Size = new System.Drawing.Size(27, 27);
             this.indent.Text = "首行缩进";
+            this.indent.Click += new System.EventHandler(this.indent_Click);
             // 
             // justifyleft
             // 
@@ -458,6 +959,7 @@
             this.justifyleft.Name = "justifyleft";
             this.justifyleft.Size = new System.Drawing.Size(27, 27);
             this.justifyleft.Text = "左对齐";
+            this.justifyleft.Click += new System.EventHandler(this.justifyleft_Click);
             // 
             // justifymid
             // 
@@ -467,6 +969,7 @@
             this.justifymid.Name = "justifymid";
             this.justifymid.Size = new System.Drawing.Size(27, 27);
             this.justifymid.Text = "居中";
+            this.justifymid.Click += new System.EventHandler(this.justifymid_Click);
             // 
             // justifyfirght
             // 
@@ -476,6 +979,7 @@
             this.justifyfirght.Name = "justifyfirght";
             this.justifyfirght.Size = new System.Drawing.Size(27, 27);
             this.justifyfirght.Text = "右对齐";
+            this.justifyfirght.Click += new System.EventHandler(this.justifyfirght_Click);
             // 
             // justifyboth
             // 
@@ -485,24 +989,47 @@
             this.justifyboth.Name = "justifyboth";
             this.justifyboth.Size = new System.Drawing.Size(27, 27);
             this.justifyboth.Text = "中间对齐";
+            this.justifyboth.Click += new System.EventHandler(this.justifyboth_Click);
             // 
-            // toolStripButton12
+            // toolStripSeparator3
             // 
-            this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton12.Image = global::EmrEditor.Properties.Resources.upper23;
-            this.toolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton12.Name = "toolStripButton12";
-            this.toolStripButton12.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton12.Text = "字母大写";
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 30);
             // 
-            // toolStripButton13
+            // touppercase
             // 
-            this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton13.Image = global::EmrEditor.Properties.Resources.lower23;
-            this.toolStripButton13.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton13.Name = "toolStripButton13";
-            this.toolStripButton13.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton13.Text = "字母小写";
+            this.touppercase.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.touppercase.Image = global::EmrEditor.Properties.Resources.upper23;
+            this.touppercase.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.touppercase.Name = "touppercase";
+            this.touppercase.Size = new System.Drawing.Size(27, 27);
+            this.touppercase.Text = "字母大写";
+            this.touppercase.Click += new System.EventHandler(this.touppercase_Click);
+            // 
+            // tolowercase
+            // 
+            this.tolowercase.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tolowercase.Image = global::EmrEditor.Properties.Resources.lower23;
+            this.tolowercase.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tolowercase.Name = "tolowercase";
+            this.tolowercase.Size = new System.Drawing.Size(27, 27);
+            this.tolowercase.Text = "字母小写";
+            this.tolowercase.Click += new System.EventHandler(this.tolowercase_Click);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 30);
+            // 
+            // pagesplit
+            // 
+            this.pagesplit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.pagesplit.Image = global::EmrEditor.Properties.Resources.pagesplit23;
+            this.pagesplit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.pagesplit.Name = "pagesplit";
+            this.pagesplit.Size = new System.Drawing.Size(27, 27);
+            this.pagesplit.Text = "toolStripButton3";
+            this.pagesplit.Click += new System.EventHandler(this.pagesplit_Click);
             // 
             // toolStripButton14
             // 
@@ -513,15 +1040,16 @@
             this.toolStripButton14.Size = new System.Drawing.Size(27, 27);
             this.toolStripButton14.Text = "附件";
             // 
-            // toolStripButton15
+            // insertimage
             // 
-            this.toolStripButton15.AutoSize = false;
-            this.toolStripButton15.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton15.Image = global::EmrEditor.Properties.Resources.image23;
-            this.toolStripButton15.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton15.Name = "toolStripButton15";
-            this.toolStripButton15.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton15.Text = "添加图片";
+            this.insertimage.AutoSize = false;
+            this.insertimage.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.insertimage.Image = global::EmrEditor.Properties.Resources.image23;
+            this.insertimage.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.insertimage.Name = "insertimage";
+            this.insertimage.Size = new System.Drawing.Size(27, 27);
+            this.insertimage.Text = "添加图片";
+            this.insertimage.Click += new System.EventHandler(this.insertimage_Click);
             // 
             // toolStripButton16
             // 
@@ -532,14 +1060,20 @@
             this.toolStripButton16.Size = new System.Drawing.Size(27, 27);
             this.toolStripButton16.Text = "特殊字符";
             // 
-            // toolStripButton17
+            // horizontal
             // 
-            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton17.Image = global::EmrEditor.Properties.Resources.splitline23;
-            this.toolStripButton17.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton17.Name = "toolStripButton17";
-            this.toolStripButton17.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton17.Text = "分割线";
+            this.horizontal.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.horizontal.Image = global::EmrEditor.Properties.Resources.splitline23;
+            this.horizontal.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.horizontal.Name = "horizontal";
+            this.horizontal.Size = new System.Drawing.Size(27, 27);
+            this.horizontal.Text = "分割线";
+            this.horizontal.Click += new System.EventHandler(this.horizontal_Click);
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 30);
             // 
             // date
             // 
@@ -549,6 +1083,7 @@
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(27, 27);
             this.date.Text = "日期";
+            this.date.Click += new System.EventHandler(this.date_Click);
             // 
             // time
             // 
@@ -558,6 +1093,12 @@
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(27, 27);
             this.time.Text = "时间";
+            this.time.Click += new System.EventHandler(this.time_Click);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 30);
             // 
             // toolStripButton20
             // 
@@ -676,6 +1217,11 @@
             this.toolStripButton32.Size = new System.Drawing.Size(27, 27);
             this.toolStripButton32.Text = "拆分成列";
             // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 30);
+            // 
             // print
             // 
             this.print.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -684,6 +1230,7 @@
             this.print.Name = "print";
             this.print.Size = new System.Drawing.Size(27, 27);
             this.print.Text = "打印";
+            this.print.Click += new System.EventHandler(this.print_Click);
             // 
             // preview
             // 
@@ -693,6 +1240,7 @@
             this.preview.Name = "preview";
             this.preview.Size = new System.Drawing.Size(27, 27);
             this.preview.Text = "预览";
+            this.preview.Click += new System.EventHandler(this.preview_Click);
             // 
             // toolStripButton35
             // 
@@ -703,152 +1251,45 @@
             this.toolStripButton35.Size = new System.Drawing.Size(27, 27);
             this.toolStripButton35.Text = "查找替换";
             // 
-            // undo
+            // 大圆圈ToolStripMenuItem
             // 
-            this.undo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.undo.Image = global::EmrEditor.Properties.Resources.undo;
-            this.undo.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.undo.Name = "undo";
-            this.undo.Size = new System.Drawing.Size(27, 27);
-            this.undo.Text = "撤销";
+            this.大圆圈ToolStripMenuItem.Name = "大圆圈ToolStripMenuItem";
+            this.大圆圈ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.大圆圈ToolStripMenuItem.Tag = "circle";
+            this.大圆圈ToolStripMenuItem.Text = "○大圆圈";
+            this.大圆圈ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
             // 
-            // redo
+            // 小圆点ToolStripMenuItem
             // 
-            this.redo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.redo.Image = global::EmrEditor.Properties.Resources.redo;
-            this.redo.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.redo.Name = "redo";
-            this.redo.Size = new System.Drawing.Size(27, 27);
-            this.redo.Text = "重做";
+            this.小圆点ToolStripMenuItem.Name = "小圆点ToolStripMenuItem";
+            this.小圆点ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.小圆点ToolStripMenuItem.Tag = "disc";
+            this.小圆点ToolStripMenuItem.Text = "●小圆点";
+            this.小圆点ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
             // 
-            // nold
+            // 小方块ToolStripMenuItem
             // 
-            this.nold.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.nold.Image = global::EmrEditor.Properties.Resources.blod23;
-            this.nold.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.nold.Name = "nold";
-            this.nold.Size = new System.Drawing.Size(27, 27);
-            this.nold.Text = "加粗";
-            this.nold.Click += new System.EventHandler(this.toolStripButton39_Click);
+            this.小方块ToolStripMenuItem.Name = "小方块ToolStripMenuItem";
+            this.小方块ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.小方块ToolStripMenuItem.Tag = "square";
+            this.小方块ToolStripMenuItem.Text = "■小方块";
+            this.小方块ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
             // 
-            // italic
+            // 破折号ToolStripMenuItem
             // 
-            this.italic.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.italic.Image = global::EmrEditor.Properties.Resources.italic23;
-            this.italic.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.italic.Name = "italic";
-            this.italic.Size = new System.Drawing.Size(27, 27);
-            this.italic.Text = "斜体";
+            this.破折号ToolStripMenuItem.Name = "破折号ToolStripMenuItem";
+            this.破折号ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.破折号ToolStripMenuItem.Tag = "dash";
+            this.破折号ToolStripMenuItem.Text = "-破折号";
+            this.破折号ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
             // 
-            // underline
+            // 小圆圈ToolStripMenuItem
             // 
-            this.underline.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.underline.Image = global::EmrEditor.Properties.Resources.underline23;
-            this.underline.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.underline.Name = "underline";
-            this.underline.Size = new System.Drawing.Size(27, 27);
-            this.underline.Text = "下划线";
-            // 
-            // fontborder
-            // 
-            this.fontborder.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.fontborder.Image = global::EmrEditor.Properties.Resources.borderline23;
-            this.fontborder.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.fontborder.Name = "fontborder";
-            this.fontborder.Size = new System.Drawing.Size(27, 27);
-            this.fontborder.Text = "字符边框";
-            // 
-            // strikethrough
-            // 
-            this.strikethrough.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.strikethrough.Image = global::EmrEditor.Properties.Resources.midline23;
-            this.strikethrough.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.strikethrough.Name = "strikethrough";
-            this.strikethrough.Size = new System.Drawing.Size(27, 27);
-            this.strikethrough.Text = "删除线";
-            // 
-            // superscript
-            // 
-            this.superscript.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.superscript.Image = global::EmrEditor.Properties.Resources.upnum23;
-            this.superscript.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.superscript.Name = "superscript";
-            this.superscript.Size = new System.Drawing.Size(27, 27);
-            this.superscript.Text = "上标";
-            // 
-            // subscript
-            // 
-            this.subscript.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.subscript.Image = global::EmrEditor.Properties.Resources.downnum23;
-            this.subscript.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.subscript.Name = "subscript";
-            this.subscript.Size = new System.Drawing.Size(27, 27);
-            this.subscript.Text = "下标";
-            // 
-            // insertorderedlist
-            // 
-            this.insertorderedlist.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.insertorderedlist.Image = global::EmrEditor.Properties.Resources.sortnum23;
-            this.insertorderedlist.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.insertorderedlist.Name = "insertorderedlist";
-            this.insertorderedlist.Size = new System.Drawing.Size(36, 27);
-            this.insertorderedlist.Text = "有序列表";
-            // 
-            // insertunorderedlist
-            // 
-            this.insertunorderedlist.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.insertunorderedlist.Image = global::EmrEditor.Properties.Resources.sortpoint23;
-            this.insertunorderedlist.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.insertunorderedlist.Name = "insertunorderedlist";
-            this.insertunorderedlist.Size = new System.Drawing.Size(36, 27);
-            this.insertunorderedlist.Text = "无序列表";
-            // 
-            // toolStripSplitButton1
-            // 
-            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripSplitButton1.Image = global::EmrEditor.Properties.Resources.lineup23;
-            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(39, 27);
-            this.toolStripSplitButton1.Text = "段前距";
-            // 
-            // toolStripSplitButton2
-            // 
-            this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripSplitButton2.Image = global::EmrEditor.Properties.Resources.linedown23;
-            this.toolStripSplitButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSplitButton2.Name = "toolStripSplitButton2";
-            this.toolStripSplitButton2.Size = new System.Drawing.Size(39, 27);
-            this.toolStripSplitButton2.Text = "断后距";
-            // 
-            // lineheight
-            // 
-            this.lineheight.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.lineheight.Image = global::EmrEditor.Properties.Resources.rowbetween;
-            this.lineheight.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.lineheight.Name = "lineheight";
-            this.lineheight.Size = new System.Drawing.Size(39, 27);
-            this.lineheight.Text = "行间距";
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripComboBox5
-            // 
-            this.toolStripComboBox5.Name = "toolStripComboBox5";
-            this.toolStripComboBox5.Size = new System.Drawing.Size(121, 30);
+            this.小圆圈ToolStripMenuItem.Name = "小圆圈ToolStripMenuItem";
+            this.小圆圈ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.小圆圈ToolStripMenuItem.Tag = "dot";
+            this.小圆圈ToolStripMenuItem.Text = "°小圆圈";
+            this.小圆圈ToolStripMenuItem.Click += new System.EventHandler(this.InsertUnorderedListToolStripMenuItem_Click);
             // 
             // EEditor
             // 
@@ -906,30 +1347,28 @@
         private System.Windows.Forms.ToolStripButton strikethrough;
         private System.Windows.Forms.ToolStripButton superscript;
         private System.Windows.Forms.ToolStripButton subscript;
-        private System.Windows.Forms.ToolStripDropDownButton insertorderedlist;
-        private System.Windows.Forms.ToolStripDropDownButton insertunorderedlist;
-        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
-        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton2;
+        private System.Windows.Forms.ToolStripSplitButton rowspacingUp;
+        private System.Windows.Forms.ToolStripSplitButton rowspacingDown;
         private System.Windows.Forms.ToolStripSplitButton lineheight;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
-        private System.Windows.Forms.ToolStripComboBox toolStripComboBox2;
-        private System.Windows.Forms.ToolStripComboBox toolStripComboBox3;
+        private System.Windows.Forms.ToolStripComboBox Paragraph;
+        private System.Windows.Forms.ToolStripComboBox fontfamily;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripComboBox toolStripComboBox4;
+        private System.Windows.Forms.ToolStripComboBox fontsize;
         private System.Windows.Forms.ToolStrip toolStrip2;
         private System.Windows.Forms.ToolStripButton justifyleft;
         private System.Windows.Forms.ToolStripButton justifymid;
         private System.Windows.Forms.ToolStripButton justifyfirght;
         private System.Windows.Forms.ToolStripButton justifyboth;
-        private System.Windows.Forms.ToolStripButton toolStripButton12;
+        private System.Windows.Forms.ToolStripButton touppercase;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripButton toolStripButton13;
+        private System.Windows.Forms.ToolStripButton tolowercase;
         private System.Windows.Forms.ToolStripButton toolStripButton14;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripButton toolStripButton15;
+        private System.Windows.Forms.ToolStripButton insertimage;
         private System.Windows.Forms.ToolStripButton toolStripButton16;
-        private System.Windows.Forms.ToolStripButton toolStripButton17;
+        private System.Windows.Forms.ToolStripButton horizontal;
         private System.Windows.Forms.ToolStripButton date;
         private System.Windows.Forms.ToolStripButton time;
         private System.Windows.Forms.ToolStripButton toolStripButton20;
@@ -956,6 +1395,44 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem13;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem14;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem15;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem16;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem17;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem18;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripButton pagesplit;
+        private System.Windows.Forms.ColorDialog colorDialog;
+        private System.Windows.Forms.ToolStripButton fontcolor;
+        private System.Windows.Forms.ToolStripButton backcolor;
+        private System.Windows.Forms.ToolStripSplitButton insertorderedlist;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem19;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem20;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem21;
+        private System.Windows.Forms.ToolStripMenuItem 一二三ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 一二三ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 一二三ToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem abcToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBCToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem iiiiiiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iIIIIIToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSplitButton insertunorderedlist;
+        private System.Windows.Forms.ToolStripMenuItem 大圆圈ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 小圆点ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 小方块ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 破折号ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 小圆圈ToolStripMenuItem;
     }
 }
 
