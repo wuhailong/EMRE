@@ -123,6 +123,16 @@ namespace EmrEditor.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap cleardoc23 {
+            get {
+                object obj = ResourceManager.GetObject("cleardoc23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap cliender23 {
             get {
                 object obj = ResourceManager.GetObject("cliender23", resourceCulture);
@@ -216,6 +226,16 @@ namespace EmrEditor.Properties {
         internal static System.Drawing.Bitmap downunion1 {
             get {
                 object obj = ResourceManager.GetObject("downunion1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap empty23 {
+            get {
+                object obj = ResourceManager.GetObject("empty23", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

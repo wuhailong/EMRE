@@ -457,6 +457,12 @@ namespace EMRE
         {
             command.Invoke("splittocols", wb_editor);
         }
+
+
+        private void cleardoc_Click(object sender, EventArgs e)
+        {
+            command.Invoke("cleardoc", wb_editor);
+        }
         
 
 

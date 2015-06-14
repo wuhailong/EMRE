@@ -139,6 +139,9 @@
   <data name="italic23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\italic23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="linebetween" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\linebetween.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,8 +166,8 @@
   <data name="borderup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\borderup1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blod23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blod23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lineup23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lineup23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="underline23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\underline23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,9 +196,6 @@
   <data name="insertlinefront1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\insertlinefront1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upper23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\upper23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="departline23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\departline23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -205,8 +205,8 @@
   <data name="splitrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\splitrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sortnum23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sortnum23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="downunion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\downunion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -228,9 +228,6 @@
   </data>
   <data name="underline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\underline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sortnum23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sortnum23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,11 +262,14 @@
   <data name="downnum23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\downnum23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="inserttable232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inserttable232.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fllow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fllow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lineup23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lineup23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="empty23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\empty23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lookfor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lookfor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -289,8 +289,8 @@
   <data name="pagesplit23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pagesplit23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rowbetween" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rowbetween.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="splitline23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\splitline23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,8 +310,8 @@
   <data name="borderup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\borderup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="linebetween" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linebetween.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="upper23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upper23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mid23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mid23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -322,6 +322,9 @@
   <data name="preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rowbetween" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rowbetween.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fontcolor23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fontcolor23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -330,6 +333,9 @@
   </data>
   <data name="right1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\right1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blod23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blod23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="i21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -346,7 +352,7 @@
   <data name="i2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="inserttable232" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inserttable232.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cleardoc23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cleardoc23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

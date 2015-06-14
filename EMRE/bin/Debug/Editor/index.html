@@ -18,9 +18,9 @@
     </style>
 </head>
 <body>
-<div>
+<div style="width:210mm;height:297mm ;margin-left:auto; margin-right:auto;background-color:white; color:black ">
    
-    <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script>
+    <script id="editor" type="text/plain" style="width:100%;height:100%;"></script>
 </div>
 
 
@@ -294,6 +294,11 @@
 		function splittocols() {
 		
 		    ue.execCommand('splittocols');
+		}
+
+		function cleardoc() {
+		
+		    ue.execCommand('cleardoc');
 		}
 
         function isFocus(e) {

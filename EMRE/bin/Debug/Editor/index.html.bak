@@ -18,9 +18,9 @@
     </style>
 </head>
 <body>
-<div>
+<div style="width:210mm;height:297mm ;margin-left:auto; margin-right:auto;margin-top:30px; margin-bottom:30px; background-color:white; color:black ">
    
-    <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script>
+    <script id="editor" type="text/plain" style="width:100%;height:100%;"></script>
 </div>
 
 
@@ -203,97 +203,102 @@
 		    ue.execCommand('insertrow');
 		}
 
-function cellalign() {
+		function cellalign() {
 		
 		    ue.execCommand('cellalign');
 		}
 
-function cellvalign() {
+		function cellvalign() {
 		
 		    ue.execCommand('cellvalign');
 		}
 
-function insertcaption() {
+		function insertcaption() {
 		
 		    ue.execCommand('insertcaption');
 		}
 
-function deletecaption() {
+		function deletecaption() {
 		
 		    ue.execCommand('deletecaption');
 		}
 
-function inserttitle() {
+		function inserttitle() {
 		
 		    ue.execCommand('inserttitle');
 		}
 
-function deletetitle() {
+		function deletetitle() {
 		
 		    ue.execCommand('deletetitle');
 		}
 
-function inserttitlecol() {
+		function inserttitlecol() {
 		
 		    ue.execCommand('inserttitlecol');
 		}
 
-function deletetitlecol() {
+		function deletetitlecol() {
 		
 		    ue.execCommand('deletetitlecol');
 		}
 
-function mergeright() {
+		function mergeright() {
 		
 		    ue.execCommand('mergeright');
 		}
 
-function mergedown() {
+		function mergedown() {
 		
 		    ue.execCommand('mergedown');
 		}
 
-function mergecells() {
+		function mergecells() {
 		
 		    ue.execCommand('mergecells');
 		}
 
-function insertrownext() {
+		function insertrownext() {
 		
 		    ue.execCommand('insertrownext');
 		}
 		
-function deleterow() {
+		function deleterow() {
 		
 		    ue.execCommand('deleterow');
 		}
 		
-function insertcol() {
+		function insertcol() {
 		
 		    ue.execCommand('insertcol');
 		}
 
-function insertcolnext() {
+		function insertcolnext() {
 		
 		    ue.execCommand('insertcolnext');
 		}
-function deletecol() {
+		function deletecol() {
 		
 		    ue.execCommand('deletecol');
 		}
 
-function splittocells() {
+		function splittocells() {
 		
 		    ue.execCommand('splittocells');
 		}
 
-function splittorows() {
+		function splittorows() {
 		
 		    ue.execCommand('splittorows');
 		}
 		function splittocols() {
 		
 		    ue.execCommand('splittocols');
+		}
+
+		function cleardoc() {
+		
+		    ue.execCommand('cleardoc');
 		}
 
         function isFocus(e) {
