@@ -318,8 +318,8 @@
             UE.getEditor('editor').blur();
             UE.dom.domUtils.preventDefault(e)
         }
-        function insertHtml() {
-            var value = prompt('插入html代码', '');
+        function insertHtml(value) {
+            
             UE.getEditor('editor').execCommand('insertHtml', value)
         }
         function createEditor() {

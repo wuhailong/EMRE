@@ -9866,12 +9866,13 @@ var LocalStorage = UE.LocalStorage = (function () {
             },
 
             setItem: function (key, value) {
-
-                document.body.appendChild(container);
-                container.setAttribute(key, value);
-                container.save(LOCAL_FILE);
-                document.body.removeChild(container);
-
+				try {
+					document.body.appendChild(container);
+					container.setAttribute(key, value);
+					container.save(LOCAL_FILE);
+					document.body.removeChild(container);
+				} catch (e) {
+				}
             },
 
             //// 暂时没有用到

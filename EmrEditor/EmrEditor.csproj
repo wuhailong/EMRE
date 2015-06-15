@@ -472,6 +472,33 @@
   <ItemGroup>
     <None Include="Resources\cleardoc23.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openfile23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savefile23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savefile232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openfile232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ToolFunction\ToolFunction.csproj">
+      <Project>{CC31A36E-5955-4F86-9B49-6ECC79949490}</Project>
+      <Name>ToolFunction</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selectedall23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autopb23.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

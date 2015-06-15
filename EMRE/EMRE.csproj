@@ -86,6 +86,10 @@
     <Content Include="temp.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ToolFunction\ToolFunction.csproj">
+      <Project>{CC31A36E-5955-4F86-9B49-6ECC79949490}</Project>
+      <Name>ToolFunction</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EmrEditor\EmrEditor.csproj">
       <Project>{CDCE7B4D-9278-4C92-8300-2FCA12567AD2}</Project>
       <Name>EmrEditor</Name>

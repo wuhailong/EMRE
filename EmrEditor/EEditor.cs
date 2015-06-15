@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Security.Permissions;
 using EmrEditor;
 using System.IO;
+using ToolFunction;
 
 namespace EMRE
 {
@@ -18,6 +19,12 @@ namespace EMRE
     {
 
         public Command command; 
+        private string strTempletPath = Application.StartupPath+"\\新建模板"+DateTime.Now.ToString();
+        /// <summary>
+        /// 是否为新建模板标识，当为新建模板时会弹出savefiledialoge,否则会用openfiledialoge的路径
+        /// 默认为是新建模板
+        /// </summary>
+        private bool isNew = true;
         public EEditor()
         {
             InitializeComponent();
@@ -463,12 +470,50 @@ namespace EMRE
         {
             command.Invoke("cleardoc", wb_editor);
         }
-        
 
+        public void SaveFile() {
+            if (isNew)
+            {
+                sfd_templet.ShowDialog();
+                strTempletPath = sfd_templet.FileName;
+            }
+            object result = this.wb_editor.Document.InvokeScript("getAllHtml");
+            CommonFunction.SaveTemplet(result.ToString(), strTempletPath);
+        }
 
-      
+        private void savefile_Click(object sender, EventArgs e)
+        {
+            SaveFile();
+        }
 
-        
+        private void openfile_Click(object sender, EventArgs e)
+        {
+            isNew = false;
+            ofd_templet.ShowDialog();
+            strTempletPath = ofd_templet.FileName;
+            object[] o = new object[1];
+            o[0] = CommonFunction.OpenTemplet(strTempletPath);
+            command.Invoke("cleardoc", wb_editor);
+            object result = this.wb_editor.Document.InvokeScript("insertHtml",o);
+        }
+
+        private void createnew_Click(object sender, EventArgs e)
+        {
+            isNew = true;
+            command.Invoke("cleardoc", wb_editor);
+        }
+
+        private void 关闭ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.FindForm().Close();
+        }
+
+        private void 另存为ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            isNew = false;
+            SaveFile();
+        }
+
 
        
     }

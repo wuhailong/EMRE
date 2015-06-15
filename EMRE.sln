@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMRE", "EMRE\EMRE.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmrEditor", "EmrEditor\EmrEditor.csproj", "{CDCE7B4D-9278-4C92-8300-2FCA12567AD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolFunction", "..\ToolFunction\ToolFunction.csproj", "{CC31A36E-5955-4F86-9B49-6ECC79949490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{CDCE7B4D-9278-4C92-8300-2FCA12567AD2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{CDCE7B4D-9278-4C92-8300-2FCA12567AD2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{CDCE7B4D-9278-4C92-8300-2FCA12567AD2}.Release|x86.ActiveCfg = Release|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CC31A36E-5955-4F86-9B49-6ECC79949490}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
