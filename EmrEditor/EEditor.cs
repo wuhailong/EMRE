@@ -514,6 +514,22 @@ namespace EMRE
             SaveFile();
         }
 
+        private void wb_editor_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+            object result = this.wb_editor.Document.InvokeScript("getText");
+            if (result.ToString() != "" && e.KeyCode == Keys.Back)
+            {
+                command.Invoke("strikethrough", wb_editor);
+                command.Invoke("forecolor", wb_editor, ColorTranslator.ToHtml(Color.Red));
+                this.wb_editor.Document.InvokeScript("setDisabled");
+                
+            }
+            else
+            {
+                this.wb_editor.Document.InvokeScript("setDisabled");
+            }
+        }
+
 
        
     }

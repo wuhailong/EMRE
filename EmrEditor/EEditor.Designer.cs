@@ -97,31 +97,14 @@
             this.帮助HToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wb_editor = new System.Windows.Forms.WebBrowser();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
-            this.Paragraph = new System.Windows.Forms.ToolStripComboBox();
-            this.fontfamily = new System.Windows.Forms.ToolStripComboBox();
-            this.fontsize = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.rowNum = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.colNum = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.colorDialog = new System.Windows.Forms.ColorDialog();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.sfd_templet = new System.Windows.Forms.SaveFileDialog();
-            this.ofd_templet = new System.Windows.Forms.OpenFileDialog();
             this.createnew = new System.Windows.Forms.ToolStripButton();
             this.openfile = new System.Windows.Forms.ToolStripButton();
             this.save = new System.Windows.Forms.ToolStripButton();
+            this.autopb = new System.Windows.Forms.ToolStripDropDownButton();
+            this.toolStripMenuItem22 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem23 = new System.Windows.Forms.ToolStripMenuItem();
             this.cleardoc = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.undo = new System.Windows.Forms.ToolStripButton();
             this.redo = new System.Windows.Forms.ToolStripButton();
             this.nold = new System.Windows.Forms.ToolStripButton();
@@ -131,6 +114,7 @@
             this.strikethrough = new System.Windows.Forms.ToolStripButton();
             this.superscript = new System.Windows.Forms.ToolStripButton();
             this.subscript = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.fontcolor = new System.Windows.Forms.ToolStripButton();
             this.backcolor = new System.Windows.Forms.ToolStripButton();
             this.insertorderedlist = new System.Windows.Forms.ToolStripSplitButton();
@@ -170,20 +154,34 @@
             this.toolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem17 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem18 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.Paragraph = new System.Windows.Forms.ToolStripComboBox();
+            this.fontfamily = new System.Windows.Forms.ToolStripComboBox();
+            this.fontsize = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.indent = new System.Windows.Forms.ToolStripButton();
             this.justifyleft = new System.Windows.Forms.ToolStripButton();
             this.justifymid = new System.Windows.Forms.ToolStripButton();
             this.justifyfirght = new System.Windows.Forms.ToolStripButton();
             this.justifyboth = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.touppercase = new System.Windows.Forms.ToolStripButton();
             this.tolowercase = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.pagesplit = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
             this.insertimage = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
             this.horizontal = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.date = new System.Windows.Forms.ToolStripButton();
             this.time = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.rowNum = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.colNum = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
             this.deletetable = new System.Windows.Forms.ToolStripButton();
             this.insertparagraphbeforetable = new System.Windows.Forms.ToolStripButton();
@@ -197,12 +195,14 @@
             this.splittocells = new System.Windows.Forms.ToolStripButton();
             this.splittorows = new System.Windows.Forms.ToolStripButton();
             this.splittocols = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.print = new System.Windows.Forms.ToolStripButton();
             this.preview = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton35 = new System.Windows.Forms.ToolStripButton();
-            this.autopb = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripMenuItem22 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem23 = new System.Windows.Forms.ToolStripMenuItem();
+            this.colorDialog = new System.Windows.Forms.ColorDialog();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.sfd_templet = new System.Windows.Forms.SaveFileDialog();
+            this.ofd_templet = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
@@ -743,6 +743,7 @@
             this.wb_editor.Size = new System.Drawing.Size(1259, 641);
             this.wb_editor.TabIndex = 1;
             this.wb_editor.Url = new System.Uri("", System.UriKind.Relative);
+            this.wb_editor.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.wb_editor_PreviewKeyDown);
             // 
             // toolStrip1
             // 
@@ -783,206 +784,6 @@
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripComboBox1
-            // 
-            this.toolStripComboBox1.Items.AddRange(new object[] {
-            "自定义标题",
-            "标题居中",
-            "标题居左",
-            "强调",
-            "明显强调"});
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 30);
-            this.toolStripComboBox1.Text = "自定义标题";
-            // 
-            // Paragraph
-            // 
-            this.Paragraph.Items.AddRange(new object[] {
-            "段落   -p",
-            "标题1 -h1",
-            "标题2 -h2",
-            "标题3 -h3",
-            "标题4 -h4",
-            "标题5 -h5",
-            "标题6 -h6"});
-            this.Paragraph.Name = "Paragraph";
-            this.Paragraph.Size = new System.Drawing.Size(121, 30);
-            this.Paragraph.Text = "段落 -p";
-            this.Paragraph.SelectedIndexChanged += new System.EventHandler(this.Paragraph_SelectedIndexChanged);
-            // 
-            // fontfamily
-            // 
-            this.fontfamily.Items.AddRange(new object[] {
-            "宋体",
-            "微软雅黑",
-            "楷体",
-            "黑体",
-            "隶书",
-            "andale mono",
-            "arial",
-            "arial black",
-            "comic sans ms",
-            "impact",
-            "times new roman"});
-            this.fontfamily.Name = "fontfamily";
-            this.fontfamily.Size = new System.Drawing.Size(121, 30);
-            this.fontfamily.Text = "arial";
-            this.fontfamily.SelectedIndexChanged += new System.EventHandler(this.fontfamily_SelectedIndexChanged);
-            // 
-            // fontsize
-            // 
-            this.fontsize.Items.AddRange(new object[] {
-            "10px",
-            "11px",
-            "12px",
-            "14px",
-            "16px",
-            "18px",
-            "20px",
-            "24px"});
-            this.fontsize.Name = "fontsize";
-            this.fontsize.Size = new System.Drawing.Size(121, 30);
-            this.fontsize.Text = "16px";
-            this.fontsize.SelectedIndexChanged += new System.EventHandler(this.fontsize_SelectedIndexChanged);
-            // 
-            // toolStrip2
-            // 
-            this.toolStrip2.ImageScalingSize = new System.Drawing.Size(23, 22);
-            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.indent,
-            this.justifyleft,
-            this.justifymid,
-            this.justifyfirght,
-            this.justifyboth,
-            this.toolStripSeparator3,
-            this.touppercase,
-            this.tolowercase,
-            this.toolStripSeparator4,
-            this.pagesplit,
-            this.toolStripButton14,
-            this.insertimage,
-            this.toolStripButton16,
-            this.horizontal,
-            this.toolStripSeparator7,
-            this.date,
-            this.time,
-            this.toolStripSeparator5,
-            this.toolStripLabel1,
-            this.rowNum,
-            this.toolStripLabel2,
-            this.colNum,
-            this.toolStripButton20,
-            this.deletetable,
-            this.insertparagraphbeforetable,
-            this.insertrow,
-            this.deleterow,
-            this.insertcol,
-            this.deletecol,
-            this.mergecells,
-            this.mergeright,
-            this.mergedown,
-            this.splittocells,
-            this.splittorows,
-            this.splittocols,
-            this.toolStripSeparator6,
-            this.print,
-            this.preview,
-            this.toolStripButton35});
-            this.toolStrip2.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip2.MinimumSize = new System.Drawing.Size(30, 30);
-            this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(1259, 30);
-            this.toolStrip2.TabIndex = 3;
-            this.toolStrip2.Text = "toolStrip2";
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 30);
-            // 
-            // toolStripLabel1
-            // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(32, 27);
-            this.toolStripLabel1.Text = "行：";
-            // 
-            // rowNum
-            // 
-            this.rowNum.Name = "rowNum";
-            this.rowNum.Size = new System.Drawing.Size(50, 30);
-            // 
-            // toolStripLabel2
-            // 
-            this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(32, 27);
-            this.toolStripLabel2.Text = "列：";
-            // 
-            // colNum
-            // 
-            this.colNum.Name = "colNum";
-            this.colNum.Size = new System.Drawing.Size(50, 30);
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 30);
-            // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 25);
-            this.splitContainer1.Name = "splitContainer1";
-            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.toolStrip1);
-            this.splitContainer1.Panel1.Controls.Add(this.toolStrip2);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.wb_editor);
-            this.splitContainer1.Size = new System.Drawing.Size(1259, 705);
-            this.splitContainer1.SplitterDistance = 60;
-            this.splitContainer1.TabIndex = 4;
-            this.splitContainer1.TabStop = false;
-            // 
-            // sfd_templet
-            // 
-            this.sfd_templet.AddExtension = false;
-            this.sfd_templet.Filter = "(*.html)|*.html|(*.xml)|*.xml";
-            this.sfd_templet.OverwritePrompt = false;
-            // 
             // createnew
             // 
             this.createnew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1013,6 +814,30 @@
             this.save.Text = "toolStripButton1";
             this.save.Click += new System.EventHandler(this.savefile_Click);
             // 
+            // autopb
+            // 
+            this.autopb.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.autopb.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem22,
+            this.toolStripMenuItem23});
+            this.autopb.Image = global::EmrEditor.Properties.Resources.autopb23;
+            this.autopb.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.autopb.Name = "autopb";
+            this.autopb.Size = new System.Drawing.Size(36, 27);
+            this.autopb.Text = "自动排版";
+            // 
+            // toolStripMenuItem22
+            // 
+            this.toolStripMenuItem22.Name = "toolStripMenuItem22";
+            this.toolStripMenuItem22.Size = new System.Drawing.Size(83, 22);
+            this.toolStripMenuItem22.Text = "1";
+            // 
+            // toolStripMenuItem23
+            // 
+            this.toolStripMenuItem23.Name = "toolStripMenuItem23";
+            this.toolStripMenuItem23.Size = new System.Drawing.Size(83, 22);
+            this.toolStripMenuItem23.Text = "2";
+            // 
             // cleardoc
             // 
             this.cleardoc.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1022,6 +847,11 @@
             this.cleardoc.Size = new System.Drawing.Size(27, 27);
             this.cleardoc.Text = "清空文档";
             this.cleardoc.Click += new System.EventHandler(this.cleardoc_Click);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 30);
             // 
             // undo
             // 
@@ -1112,6 +942,11 @@
             this.subscript.Size = new System.Drawing.Size(27, 27);
             this.subscript.Text = "下标";
             this.subscript.Click += new System.EventHandler(this.subscript_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 30);
             // 
             // fontcolor
             // 
@@ -1488,6 +1323,123 @@
             this.toolStripMenuItem18.Text = "5";
             this.toolStripMenuItem18.Click += new System.EventHandler(this.LineHeightToolStripMenuItem_Click);
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 30);
+            // 
+            // toolStripComboBox1
+            // 
+            this.toolStripComboBox1.Items.AddRange(new object[] {
+            "自定义标题",
+            "标题居中",
+            "标题居左",
+            "强调",
+            "明显强调"});
+            this.toolStripComboBox1.Name = "toolStripComboBox1";
+            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 30);
+            this.toolStripComboBox1.Text = "自定义标题";
+            // 
+            // Paragraph
+            // 
+            this.Paragraph.Items.AddRange(new object[] {
+            "段落   -p",
+            "标题1 -h1",
+            "标题2 -h2",
+            "标题3 -h3",
+            "标题4 -h4",
+            "标题5 -h5",
+            "标题6 -h6"});
+            this.Paragraph.Name = "Paragraph";
+            this.Paragraph.Size = new System.Drawing.Size(121, 30);
+            this.Paragraph.Text = "段落 -p";
+            this.Paragraph.SelectedIndexChanged += new System.EventHandler(this.Paragraph_SelectedIndexChanged);
+            // 
+            // fontfamily
+            // 
+            this.fontfamily.Items.AddRange(new object[] {
+            "宋体",
+            "微软雅黑",
+            "楷体",
+            "黑体",
+            "隶书",
+            "andale mono",
+            "arial",
+            "arial black",
+            "comic sans ms",
+            "impact",
+            "times new roman"});
+            this.fontfamily.Name = "fontfamily";
+            this.fontfamily.Size = new System.Drawing.Size(121, 30);
+            this.fontfamily.Text = "arial";
+            this.fontfamily.SelectedIndexChanged += new System.EventHandler(this.fontfamily_SelectedIndexChanged);
+            // 
+            // fontsize
+            // 
+            this.fontsize.Items.AddRange(new object[] {
+            "10px",
+            "11px",
+            "12px",
+            "14px",
+            "16px",
+            "18px",
+            "20px",
+            "24px"});
+            this.fontsize.Name = "fontsize";
+            this.fontsize.Size = new System.Drawing.Size(121, 30);
+            this.fontsize.Text = "16px";
+            this.fontsize.SelectedIndexChanged += new System.EventHandler(this.fontsize_SelectedIndexChanged);
+            // 
+            // toolStrip2
+            // 
+            this.toolStrip2.ImageScalingSize = new System.Drawing.Size(23, 22);
+            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.indent,
+            this.justifyleft,
+            this.justifymid,
+            this.justifyfirght,
+            this.justifyboth,
+            this.toolStripSeparator3,
+            this.touppercase,
+            this.tolowercase,
+            this.toolStripSeparator4,
+            this.pagesplit,
+            this.toolStripButton14,
+            this.insertimage,
+            this.toolStripButton16,
+            this.horizontal,
+            this.toolStripSeparator7,
+            this.date,
+            this.time,
+            this.toolStripSeparator5,
+            this.toolStripLabel1,
+            this.rowNum,
+            this.toolStripLabel2,
+            this.colNum,
+            this.toolStripButton20,
+            this.deletetable,
+            this.insertparagraphbeforetable,
+            this.insertrow,
+            this.deleterow,
+            this.insertcol,
+            this.deletecol,
+            this.mergecells,
+            this.mergeright,
+            this.mergedown,
+            this.splittocells,
+            this.splittorows,
+            this.splittocols,
+            this.toolStripSeparator6,
+            this.print,
+            this.preview,
+            this.toolStripButton35});
+            this.toolStrip2.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip2.MinimumSize = new System.Drawing.Size(30, 30);
+            this.toolStrip2.Name = "toolStrip2";
+            this.toolStrip2.Size = new System.Drawing.Size(1259, 30);
+            this.toolStrip2.TabIndex = 3;
+            this.toolStrip2.Text = "toolStrip2";
+            // 
             // indent
             // 
             this.indent.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1538,6 +1490,11 @@
             this.justifyboth.Text = "中间对齐";
             this.justifyboth.Click += new System.EventHandler(this.justifyboth_Click);
             // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 30);
+            // 
             // touppercase
             // 
             this.touppercase.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1557,6 +1514,11 @@
             this.tolowercase.Size = new System.Drawing.Size(27, 27);
             this.tolowercase.Text = "字母小写";
             this.tolowercase.Click += new System.EventHandler(this.tolowercase_Click);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 30);
             // 
             // pagesplit
             // 
@@ -1607,6 +1569,11 @@
             this.horizontal.Text = "分割线";
             this.horizontal.Click += new System.EventHandler(this.horizontal_Click);
             // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 30);
+            // 
             // date
             // 
             this.date.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1626,6 +1593,33 @@
             this.time.Size = new System.Drawing.Size(27, 27);
             this.time.Text = "时间";
             this.time.Click += new System.EventHandler(this.time_Click);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 30);
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(32, 27);
+            this.toolStripLabel1.Text = "行：";
+            // 
+            // rowNum
+            // 
+            this.rowNum.Name = "rowNum";
+            this.rowNum.Size = new System.Drawing.Size(50, 30);
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(32, 27);
+            this.toolStripLabel2.Text = "列：";
+            // 
+            // colNum
+            // 
+            this.colNum.Name = "colNum";
+            this.colNum.Size = new System.Drawing.Size(50, 30);
             // 
             // toolStripButton20
             // 
@@ -1757,6 +1751,11 @@
             this.splittocols.Text = "拆分成列";
             this.splittocols.Click += new System.EventHandler(this.splittocols_Click);
             // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 30);
+            // 
             // print
             // 
             this.print.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -1786,29 +1785,31 @@
             this.toolStripButton35.Size = new System.Drawing.Size(27, 27);
             this.toolStripButton35.Text = "查找替换";
             // 
-            // autopb
+            // splitContainer1
             // 
-            this.autopb.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.autopb.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem22,
-            this.toolStripMenuItem23});
-            this.autopb.Image = global::EmrEditor.Properties.Resources.autopb23;
-            this.autopb.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.autopb.Name = "autopb";
-            this.autopb.Size = new System.Drawing.Size(36, 27);
-            this.autopb.Text = "自动排版";
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 25);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
-            // toolStripMenuItem22
+            // splitContainer1.Panel1
             // 
-            this.toolStripMenuItem22.Name = "toolStripMenuItem22";
-            this.toolStripMenuItem22.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem22.Text = "1";
+            this.splitContainer1.Panel1.Controls.Add(this.toolStrip1);
+            this.splitContainer1.Panel1.Controls.Add(this.toolStrip2);
             // 
-            // toolStripMenuItem23
+            // splitContainer1.Panel2
             // 
-            this.toolStripMenuItem23.Name = "toolStripMenuItem23";
-            this.toolStripMenuItem23.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem23.Text = "2";
+            this.splitContainer1.Panel2.Controls.Add(this.wb_editor);
+            this.splitContainer1.Size = new System.Drawing.Size(1259, 705);
+            this.splitContainer1.SplitterDistance = 60;
+            this.splitContainer1.TabIndex = 4;
+            this.splitContainer1.TabStop = false;
+            // 
+            // sfd_templet
+            // 
+            this.sfd_templet.AddExtension = false;
+            this.sfd_templet.Filter = "(*.html)|*.html|(*.xml)|*.xml";
+            this.sfd_templet.OverwritePrompt = false;
             // 
             // EEditor
             // 
