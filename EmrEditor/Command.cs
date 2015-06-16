@@ -340,7 +340,10 @@ namespace EmrEditor
                     //insertrow	前插入行
                     result = browser.Document.InvokeScript("splittocols");
                     break;
-                    
+                case "insertHtmlTag":
+                    //insertrow	前插入行
+                    result = browser.Document.InvokeScript("insertHtmlTag");
+                    break;
                 default:
                     break;
 

@@ -203,6 +203,7 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.sfd_templet = new System.Windows.Forms.SaveFileDialog();
             this.ofd_templet = new System.Windows.Forms.OpenFileDialog();
+            this.插入标签元素ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
@@ -502,7 +503,8 @@
             this.获取带格式文本ToolStripMenuItem,
             this.判断是否有内容ToolStripMenuItem,
             this.获取选中文本ToolStripMenuItem,
-            this.插入给定内容ToolStripMenuItem});
+            this.插入给定内容ToolStripMenuItem,
+            this.插入标签元素ToolStripMenuItem});
             this.内容ToolStripMenuItem.Name = "内容ToolStripMenuItem";
             this.内容ToolStripMenuItem.Size = new System.Drawing.Size(62, 21);
             this.内容ToolStripMenuItem.Text = "内容(N)";
@@ -1811,6 +1813,13 @@
             this.sfd_templet.Filter = "(*.html)|*.html|(*.xml)|*.xml";
             this.sfd_templet.OverwritePrompt = false;
             // 
+            // 插入标签元素ToolStripMenuItem
+            // 
+            this.插入标签元素ToolStripMenuItem.Name = "插入标签元素ToolStripMenuItem";
+            this.插入标签元素ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.插入标签元素ToolStripMenuItem.Text = "插入标签元素";
+            this.插入标签元素ToolStripMenuItem.Click += new System.EventHandler(this.插入标签元素ToolStripMenuItem_Click);
+            // 
             // EEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -2012,6 +2021,7 @@
         private System.Windows.Forms.ToolStripDropDownButton autopb;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem22;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem23;
+        private System.Windows.Forms.ToolStripMenuItem 插入标签元素ToolStripMenuItem;
     }
 }
 

@@ -320,6 +320,11 @@
             UE.getEditor('editor').execCommand('insertHtml', value)
         }
 
+		function insertHtmlTag() {
+			var value = prompt('插入html代码', '');
+			UE.getEditor('editor').execCommand('insertHtml', value)
+		}
+
         function createEditor() {
             enableBtn();
             UE.getEditor('editor');
