@@ -516,6 +516,26 @@ namespace EMRE
 
         private void wb_editor_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
+            object result = this.wb_editor.Document.InvokeScript("getText");
+            object[] o = new object[1];
+            o[0] = e;
+            if (result.ToString() != "" && e.KeyCode == Keys.Back)
+            {
+                command.Invoke("strikethrough", wb_editor);
+                command.Invoke("forecolor", wb_editor, ColorTranslator.ToHtml(Color.Red));
+                this.wb_editor.Document.InvokeScript("setblur", o);
+            }
+            else if (result.ToString() != "" && e.KeyCode != Keys.Back)
+            {
+                this.wb_editor.Document.InvokeScript("setblur", o);
+            }
+            //command.Invoke("setblur", wb_editor);
+            //command.Invoke("isFocus", wb_editor);
+            //        //setblur	编辑器失去焦点
+            //        result = browser.Document.InvokeScript("setblur", o);
+            //        //isFocus	编辑器获取焦点
+            //        result = browser.Document.InvokeScript("isFocus", o);
+
             //object result = this.wb_editor.Document.InvokeScript("getText");
             //if (result.ToString() != "" && e.KeyCode == Keys.Back)
             //{
@@ -533,6 +553,19 @@ namespace EMRE
         private void 插入标签元素ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             object result = this.wb_editor.Document.InvokeScript("insertHtmlTag");
+        }
+
+        private void 编辑器失去焦点ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            object[] o = new object[1];
+            o[0] = e;
+            object result = this.wb_editor.Document.InvokeScript("setblur",o);
+        }
+
+       
+        private void 编辑器获取焦点ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            object result = this.wb_editor.Document.InvokeScript("setFocus");
         }
 
 

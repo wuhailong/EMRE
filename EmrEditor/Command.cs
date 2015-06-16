@@ -344,6 +344,18 @@ namespace EmrEditor
                     //insertrow	前插入行
                     result = browser.Document.InvokeScript("insertHtmlTag");
                     break;
+                case "setblur":
+                    //setblur	编辑器失去焦点
+                    result = browser.Document.InvokeScript("setblur", prams);
+                    break;
+                case "isFocus":
+                    //isFocus	判断编辑器是否有焦点
+                    result = browser.Document.InvokeScript("isFocus", prams);
+                    break;
+                case "setFocus":
+                    //setFocus	编辑器获取焦点
+                    result = browser.Document.InvokeScript("setFocus");
+                    break;
                 default:
                     break;
 

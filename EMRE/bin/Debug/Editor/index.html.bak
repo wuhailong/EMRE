@@ -305,14 +305,26 @@
 		    ue.execCommand('cleardoc');
 		}
 
-        function isFocus(e) {
-            alert(UE.getEditor('editor').isFocus());
+        function isFocus(e) {			
+            alert(UE.getEditor('editor').isFocus());			
             UE.dom.domUtils.preventDefault(e)
         }
 
         function setblur(e) {
             UE.getEditor('editor').blur();
             UE.dom.domUtils.preventDefault(e)
+			//重新获取焦点
+			//setTimeout(function() { forecolor('#000000'); }, 10);
+			//setTimeout(function() { strikethrough(); }, 10);
+			//setTimeout(function() { setFocus(); }, 10);
+			UE.getEditor('editor').setContent('', true)
+
+			setTimeout(function() { forecolor('#000000'); }, 10);
+			setTimeout(function() { strikethrough(); }, 10);
+
+			//setTimeout(function() { setFocus(); }, 10);
+			//ue.execCommand('strikethrough');
+			//ue.execCommand('forecolor','#000000');
         }
 
         function insertHtml(value) {
@@ -321,8 +333,8 @@
         }
 
 		function insertHtmlTag() {
-        var value = prompt('插入html代码', '');
-        UE.getEditor('editor').execCommand('insertHtml', value)
+			var value = prompt('插入html代码', '');
+			UE.getEditor('editor').execCommand('insertHtml', value)
 		}
 
         function createEditor() {

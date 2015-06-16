@@ -3549,7 +3549,9 @@ var domUtils = dom.domUtils = {
      * ```
      */
     preventDefault:function (evt) {
+		try{
         evt.preventDefault ? evt.preventDefault() : (evt.returnValue = false);
+		}catch(e){}
     },
     /**
      * 删除元素element指定的样式
