@@ -533,7 +533,7 @@ namespace EMRE
                 command.Invoke("forecolor", wb_editor, ColorTranslator.ToHtml(Color.Red));
                 this.wb_editor.Document.InvokeScript("setblur", o);
             }
-            else if (result.ToString() != "" && e.KeyCode != Keys.Back)
+            else if (result != null && result.ToString() != "" && e.KeyCode != Keys.Back)
             {
                 this.wb_editor.Document.InvokeScript("setblur", o);
             }
@@ -563,6 +563,13 @@ namespace EMRE
             object result = this.wb_editor.Document.InvokeScript("insertHtmlTag");
         }
 
+        public void InsertHtml(string value)
+        {
+            object[] o = new object[1];
+            o[0] = value;
+            object result = this.wb_editor.Document.InvokeScript("insertHtml", o);
+        }
+
         private void 编辑器失去焦点ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             object[] o = new object[1];
@@ -574,6 +581,12 @@ namespace EMRE
         private void 编辑器获取焦点ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             object result = this.wb_editor.Document.InvokeScript("setFocus");
+        }
+
+        private void 数据ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormatData fd = new FormatData(this);
+            fd.Show();
         }
 
 

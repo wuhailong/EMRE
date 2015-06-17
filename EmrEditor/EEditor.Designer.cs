@@ -104,6 +104,7 @@
             this.编辑器ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.可以编辑ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.不可编辑ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.浏览ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.草稿箱ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.清空草稿箱ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.获取草稿箱内容ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -216,7 +217,7 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.sfd_templet = new System.Windows.Forms.SaveFileDialog();
             this.ofd_templet = new System.Windows.Forms.OpenFileDialog();
-            this.浏览ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
@@ -237,6 +238,7 @@
             this.表格ToolStripMenuItem,
             this.插入ToolStripMenuItem,
             this.编辑器ToolStripMenuItem,
+            this.数据ToolStripMenuItem,
             this.草稿箱ToolStripMenuItem,
             this.帮助HToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -739,56 +741,56 @@
             // 表格ToolStripMenuItem1
             // 
             this.表格ToolStripMenuItem1.Name = "表格ToolStripMenuItem1";
-            this.表格ToolStripMenuItem1.Size = new System.Drawing.Size(136, 22);
+            this.表格ToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.表格ToolStripMenuItem1.Text = "表格";
             this.表格ToolStripMenuItem1.Click += new System.EventHandler(this.toolStripButton20_Click);
             // 
             // 图片ToolStripMenuItem
             // 
             this.图片ToolStripMenuItem.Name = "图片ToolStripMenuItem";
-            this.图片ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.图片ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.图片ToolStripMenuItem.Text = "图片";
             // 
             // 固定文本ToolStripMenuItem
             // 
             this.固定文本ToolStripMenuItem.Name = "固定文本ToolStripMenuItem";
-            this.固定文本ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.固定文本ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.固定文本ToolStripMenuItem.Text = "固定文本";
             // 
             // 宏元素ToolStripMenuItem
             // 
             this.宏元素ToolStripMenuItem.Name = "宏元素ToolStripMenuItem";
-            this.宏元素ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.宏元素ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.宏元素ToolStripMenuItem.Text = "宏元素";
             // 
             // 时间ToolStripMenuItem
             // 
             this.时间ToolStripMenuItem.Name = "时间ToolStripMenuItem";
-            this.时间ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.时间ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.时间ToolStripMenuItem.Text = "格式化时间";
             // 
             // 日期ToolStripMenuItem
             // 
             this.日期ToolStripMenuItem.Name = "日期ToolStripMenuItem";
-            this.日期ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.日期ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.日期ToolStripMenuItem.Text = "格式化日期";
             // 
             // 下拉框ToolStripMenuItem
             // 
             this.下拉框ToolStripMenuItem.Name = "下拉框ToolStripMenuItem";
-            this.下拉框ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.下拉框ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.下拉框ToolStripMenuItem.Text = "下拉框";
             // 
             // 弹出表格ToolStripMenuItem
             // 
             this.弹出表格ToolStripMenuItem.Name = "弹出表格ToolStripMenuItem";
-            this.弹出表格ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.弹出表格ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.弹出表格ToolStripMenuItem.Text = "弹出表格";
             // 
             // 知识字典ToolStripMenuItem
             // 
             this.知识字典ToolStripMenuItem.Name = "知识字典ToolStripMenuItem";
-            this.知识字典ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.知识字典ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.知识字典ToolStripMenuItem.Text = "知识字典";
             // 
             // 编辑器ToolStripMenuItem
@@ -804,16 +806,23 @@
             // 可以编辑ToolStripMenuItem
             // 
             this.可以编辑ToolStripMenuItem.Name = "可以编辑ToolStripMenuItem";
-            this.可以编辑ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.可以编辑ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.可以编辑ToolStripMenuItem.Text = "编辑状态";
             this.可以编辑ToolStripMenuItem.Click += new System.EventHandler(this.可以编辑ToolStripMenuItem_Click);
             // 
             // 不可编辑ToolStripMenuItem
             // 
             this.不可编辑ToolStripMenuItem.Name = "不可编辑ToolStripMenuItem";
-            this.不可编辑ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.不可编辑ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.不可编辑ToolStripMenuItem.Text = "阅读状态";
             this.不可编辑ToolStripMenuItem.Click += new System.EventHandler(this.不可编辑ToolStripMenuItem_Click);
+            // 
+            // 浏览ToolStripMenuItem
+            // 
+            this.浏览ToolStripMenuItem.Name = "浏览ToolStripMenuItem";
+            this.浏览ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.浏览ToolStripMenuItem.Text = "文件预览";
+            this.浏览ToolStripMenuItem.Click += new System.EventHandler(this.preview_Click);
             // 
             // 草稿箱ToolStripMenuItem
             // 
@@ -1922,12 +1931,12 @@
             this.sfd_templet.Filter = "(*.html)|*.html|(*.xml)|*.xml";
             this.sfd_templet.OverwritePrompt = false;
             // 
-            // 浏览ToolStripMenuItem
+            // 数据ToolStripMenuItem
             // 
-            this.浏览ToolStripMenuItem.Name = "浏览ToolStripMenuItem";
-            this.浏览ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.浏览ToolStripMenuItem.Text = "文件预览";
-            this.浏览ToolStripMenuItem.Click += new System.EventHandler(this.preview_Click);
+            this.数据ToolStripMenuItem.Name = "数据ToolStripMenuItem";
+            this.数据ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.数据ToolStripMenuItem.Text = "数据";
+            this.数据ToolStripMenuItem.Click += new System.EventHandler(this.数据ToolStripMenuItem_Click);
             // 
             // EEditor
             // 
@@ -2144,6 +2153,7 @@
         private System.Windows.Forms.ToolStripMenuItem 编辑器失去焦点ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 编辑器获取焦点ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 浏览ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 数据ToolStripMenuItem;
     }
 }
 

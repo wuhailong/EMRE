@@ -1972,4 +1972,4 @@ LI.list-dot-paddingleft {
 <STYLE>.anchorclass {
 	CURSOR: auto; HEIGHT: 16px; WIDTH: 15px; BACKGROUND: url(file://D:/GitHub/EMRE/EMRE/bin/Debug/Editor/themes/default/images/anchor.gif) no-repeat left center; DISPLAY: inline-block
 }
-</STYLE><style type="text/css">body{background-color:#ffffff; background-image:; background-repeat:repeat; background-position:0% 0%; height:1123px; }</style> </head><body class="view">a<input onclick="{alert(&#39;asdf&#39;)}" name="1"/><p></p></body></html>
+</STYLE><style type="text/css">body{background-color:#ffffff; background-image:; background-repeat:repeat; background-position:0% 0%; height:1123px; }</style> </head><body class="view"><input doubleclick="{alert(&#39;asdf&#39;)}" name="112"/><p></p></body></html>

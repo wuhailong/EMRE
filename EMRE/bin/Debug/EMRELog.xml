@@ -24,4 +24,17 @@
    在 ToolFunction.CommonFunction.OpenTemplet(String p_strFileName) 位置 E:\Github\ToolFunction\CommonFunction.cs:行号 1793</StackTrace>
     <Message>打开文件失败</Message>
   </Log>
+  <Log>
+    <Time>2015-06-17 21:34:08</Time>
+    <User>User</User>
+    <StackTrace>System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   在 System.Security.Cryptography.Utils._DecryptData(SafeKeyHandle hKey, Byte[] data, Int32 ib, Int32 cb, Byte[]&amp; outputBuffer, Int32 outputOffset, PaddingMode PaddingMode, Boolean fDone)
+   在 System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   在 System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   在 ToolFunction.CommonFunction.DecryptString(String Value) 位置 E:\Github\ToolFunction\CommonFunction.cs:行号 1856
+   在 ToolFunction.CommonFunction.OpenTemplet(String p_strFileName) 位置 E:\Github\ToolFunction\CommonFunction.cs:行号 1793</StackTrace>
+    <Message>打开文件失败</Message>
+  </Log>
 </系统日志>
