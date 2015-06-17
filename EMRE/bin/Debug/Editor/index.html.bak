@@ -319,8 +319,7 @@
 			//setTimeout(function() { setFocus(); }, 10);
 			UE.getEditor('editor').setContent('', true)
 
-			setTimeout(function() { forecolor('#000000'); }, 10);
-			setTimeout(function() { strikethrough(); }, 10);
+			
 
 			//setTimeout(function() { setFocus(); }, 10);
 			//ue.execCommand('strikethrough');

@@ -312,7 +312,15 @@ namespace EMRE
 
         private void preview_Click(object sender, EventArgs e)
         {
-            command.Invoke("preview", wb_editor);
+            //command.Invoke("preview", wb_editor);
+            string s = Application.StartupPath+"\\preview.html";
+            object result = this.wb_editor.Document.InvokeScript("getAllHtml");
+            CommonFunction.SaveTemplet(result.ToString(), s,false);
+            FilePreview.uriString = s;
+            FilePreview fp = new FilePreview();
+            fp.Show();
+
+
         }
 
         private void pagesplit_Click(object sender, EventArgs e)
@@ -519,7 +527,7 @@ namespace EMRE
             object result = this.wb_editor.Document.InvokeScript("getText");
             object[] o = new object[1];
             o[0] = e;
-            if (result.ToString() != "" && e.KeyCode == Keys.Back)
+            if (result!=null&&result.ToString() != "" && e.KeyCode == Keys.Back)
             {
                 command.Invoke("strikethrough", wb_editor);
                 command.Invoke("forecolor", wb_editor, ColorTranslator.ToHtml(Color.Red));
