@@ -263,16 +263,21 @@ namespace EMRE
             command.Invoke("justify", wb_editor, "both");
         }
 
-        
 
+        
        
         private void insertimage_Click(object sender, EventArgs e)
         {
-            Dictionary<string,string> dict = new Dictionary<string,string>();
-            dict.Add("src","a/b/c.jpg");
-            dict.Add("width","100");
-            dict.Add("height","100");
-            command.Invoke("insertimage", wb_editor, dict);
+            OpenFileDialog ofdpic = new OpenFileDialog();
+            ofdpic.ShowDialog();
+            ofdpic.Filter = "标签|*.jpg;*.png;*.gif";
+            CommonFunction.SetFtpWeb("192.168.70.99", "", "Administrator", "Whl05043016");
+            string path = Application.StartupPath + "\\Images\\" + CommonFunction.Upload(ofdpic.FileName);
+            //Dictionary<string,string> dict = new Dictionary<string,string>();
+            //dict.Add("src","a/b/c.jpg");
+            //dict.Add("width","100");
+            //dict.Add("height","100");
+            command.Invoke("insertimage", wb_editor, path);
         }
 
         private void touppercase_Click(object sender, EventArgs e)

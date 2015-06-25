@@ -165,7 +165,7 @@ namespace EmrEditor
                     break;
                 case "insertimage":
                     //insertimage	插入图片
-                    result = browser.Document.InvokeScript("insertimage");
+                    result = browser.Document.InvokeScript("insertimage",prams);
                     break;
                 case "indent":
                     //indent	缩进
