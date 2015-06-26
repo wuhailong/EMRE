@@ -17,7 +17,10 @@ namespace EMRE
     [System.Runtime.InteropServices.ComVisibleAttribute(true)]
     public partial class EEditor : UserControl
     {
-
+        /// <summary>
+        /// 是否启用留痕模式
+        /// </summary>
+        public static bool leaveMark = true;
         public Command command; 
         private string strTempletPath = Application.StartupPath+"\\新建模板"+DateTime.Now.ToString();
         /// <summary>
@@ -63,6 +66,7 @@ namespace EMRE
         private void 获取内容ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             object result = this.wb_editor.Document.InvokeScript("getContent");
+            MessageBox.Show(result.ToString());
         }
 
         private void 写入内容ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -530,6 +534,11 @@ namespace EMRE
 
         private void wb_editor_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
+            if (!leaveMark)
+            {
+                return;
+            }
+
             object result = this.wb_editor.Document.InvokeScript("getText");
             object[] o = new object[1];
             o[0] = e;
@@ -593,6 +602,18 @@ namespace EMRE
         {
             FormatData fd = new FormatData(this);
             fd.Show();
+        }
+
+        private void 留痕模式ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (留痕模式ToolStripMenuItem.Checked)
+            {
+                leaveMark = true;
+            }
+            else
+            {
+                leaveMark = false;
+            }
         }
 
 
