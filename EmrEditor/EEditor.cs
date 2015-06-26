@@ -272,7 +272,8 @@ namespace EMRE
             ofdpic.ShowDialog();
             ofdpic.Filter = "标签|*.jpg;*.png;*.gif";
             CommonFunction.SetFtpWeb("192.168.70.99", "", "Administrator", "Whl05043016");
-            string path = Application.StartupPath + "\\Images\\" + CommonFunction.Upload(ofdpic.FileName);
+            //string path = Application.StartupPath + "\\Images\\" + CommonFunction.Upload(ofdpic.FileName);
+            string path = "ftp://192.168.70.99/" + CommonFunction.Upload(ofdpic.FileName);
             //Dictionary<string,string> dict = new Dictionary<string,string>();
             //dict.Add("src","a/b/c.jpg");
             //dict.Add("width","100");
