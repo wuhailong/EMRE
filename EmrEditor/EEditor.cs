@@ -21,8 +21,8 @@ namespace EMRE
         /// 是否启用留痕模式
         /// </summary>
         public static bool leaveMark = true;
-        public Command command; 
-        private string strTempletPath = Application.StartupPath+"\\新建模板"+DateTime.Now.ToString();
+        public Command command;
+        private string strTempletPath = Application.StartupPath + "\\新建模板" + DateTime.Now.ToString();
         /// <summary>
         /// 是否为新建模板标识，当为新建模板时会弹出savefiledialoge,否则会用openfiledialoge的路径
         /// 默认为是新建模板
@@ -31,7 +31,7 @@ namespace EMRE
         public EEditor()
         {
             InitializeComponent();
-            string _strEditorPath = Application.StartupPath+@"/Editor/index.html";
+            string _strEditorPath = Application.StartupPath + @"/Editor/index.html";
             System.IO.FileInfo file = new System.IO.FileInfo(_strEditorPath);
 
             // WebBrowser控件显示的网页路径
@@ -52,12 +52,12 @@ namespace EMRE
             //object result = this.wb_editor.Document.InvokeScript("ShowMessage", o);
 
             object result = this.wb_editor.Document.InvokeScript("getAllHtml");
-            
+
         }
 
         #region 菜单
-        
-       
+
+
         private void 获取整个htmlToolStripMenuItem_Click(object sender, EventArgs e)
         {
             object result = this.wb_editor.Document.InvokeScript("getAllHtml");
@@ -78,7 +78,7 @@ namespace EMRE
         {
             object[] o = new object[1];
             o[0] = true;
-            object result = this.wb_editor.Document.InvokeScript("setContent",o);
+            object result = this.wb_editor.Document.InvokeScript("setContent", o);
         }
 
         private void 获取纯文本ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -121,7 +121,7 @@ namespace EMRE
             object result = this.wb_editor.Document.InvokeScript("deleteEditor");
         }
 
-       
+
         private void 使编辑器获取焦点ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             object result = this.wb_editor.Document.InvokeScript("getAllHtml");
@@ -154,7 +154,7 @@ namespace EMRE
         }
         #endregion
 
-       
+
 
         private void toolStripButton39_Click(object sender, EventArgs e)
         {
@@ -165,7 +165,7 @@ namespace EMRE
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            SetToolStripMenuItemCheckStatus(rowspacingUp,toolStripMenuItem2);
+            SetToolStripMenuItemCheckStatus(rowspacingUp, toolStripMenuItem2);
         }
 
         /// <summary>
@@ -228,7 +228,7 @@ namespace EMRE
         private void strikethrough_Click(object sender, EventArgs e)
         {
             command.Invoke("strikethrough", wb_editor);
-            
+
         }
 
         private void superscript_Click(object sender, EventArgs e)
@@ -244,7 +244,7 @@ namespace EMRE
         private void indent_Click(object sender, EventArgs e)
         {
             command.Invoke("indent", wb_editor);
-            
+
         }
 
         private void justifyleft_Click(object sender, EventArgs e)
@@ -268,8 +268,8 @@ namespace EMRE
         }
 
 
-        
-       
+
+
         private void insertimage_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofdpic = new OpenFileDialog();
@@ -323,9 +323,9 @@ namespace EMRE
         private void preview_Click(object sender, EventArgs e)
         {
             //command.Invoke("preview", wb_editor);
-            string s = Application.StartupPath+"\\preview.html";
+            string s = Application.StartupPath + "\\preview.html";
             object result = this.wb_editor.Document.InvokeScript("getAllHtml");
-            CommonFunction.SaveTemplet(result.ToString(), s,false);
+            CommonFunction.SaveTemplet(result.ToString(), s, false);
             FilePreview.uriString = s;
             FilePreview fp = new FilePreview();
             fp.Show();
@@ -374,7 +374,7 @@ namespace EMRE
                 string fontsize = Paragraph.Text.Split('-')[1].ToString();
                 command.Invoke("paragraph", wb_editor, fontsize);
             }
-            
+
         }
 
 
@@ -413,24 +413,24 @@ namespace EMRE
 
         private void toolStripButton20_Click(object sender, EventArgs e)
         {
-            int _rownum=0,_colnum=0;
-            if (int.TryParse(rowNum.Text,out _rownum)&& int.TryParse(colNum.Text,out _colnum))
+            int _rownum = 0, _colnum = 0;
+            if (int.TryParse(rowNum.Text, out _rownum) && int.TryParse(colNum.Text, out _colnum))
             {
                 command.Invoke("inserttable", wb_editor, _rownum, _colnum);
             }
-            
+
         }
 
         private void deletetable_Click(object sender, EventArgs e)
         {
             command.Invoke("deletetable", wb_editor);
-            
+
         }
 
         private void insertparagraphbeforetable_Click(object sender, EventArgs e)
         {
             command.Invoke("insertparagraphbeforetable", wb_editor);
-            
+
         }
 
         private void insertrow_Click(object sender, EventArgs e)
@@ -489,7 +489,8 @@ namespace EMRE
             command.Invoke("cleardoc", wb_editor);
         }
 
-        public void SaveFile() {
+        public void SaveFile()
+        {
             if (isNew)
             {
                 sfd_templet.ShowDialog();
@@ -512,7 +513,7 @@ namespace EMRE
             object[] o = new object[1];
             o[0] = CommonFunction.OpenTemplet(strTempletPath);
             command.Invoke("cleardoc", wb_editor);
-            object result = this.wb_editor.Document.InvokeScript("insertHtml",o);
+            object result = this.wb_editor.Document.InvokeScript("insertHtml", o);
         }
 
         private void createnew_Click(object sender, EventArgs e)
@@ -534,6 +535,7 @@ namespace EMRE
 
         private void wb_editor_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
+            SetCommandStatus();
             if (!leaveMark)
             {
                 return;
@@ -542,7 +544,7 @@ namespace EMRE
             object result = this.wb_editor.Document.InvokeScript("getText");
             object[] o = new object[1];
             o[0] = e;
-            if (result!=null&&result.ToString() != "" && e.KeyCode == Keys.Back)
+            if (result != null && result.ToString() != "" && e.KeyCode == Keys.Back)
             {
                 command.Invoke("strikethrough", wb_editor);
                 command.Invoke("forecolor", wb_editor, ColorTranslator.ToHtml(Color.Red));
@@ -565,7 +567,7 @@ namespace EMRE
             //    command.Invoke("strikethrough", wb_editor);
             //    command.Invoke("forecolor", wb_editor, ColorTranslator.ToHtml(Color.Red));
             //    this.wb_editor.Document.InvokeScript("setDisabled");
-                
+
             //}
             //else
             //{
@@ -589,10 +591,10 @@ namespace EMRE
         {
             object[] o = new object[1];
             o[0] = e;
-            object result = this.wb_editor.Document.InvokeScript("setblur",o);
+            object result = this.wb_editor.Document.InvokeScript("setblur", o);
         }
 
-       
+
         private void 编辑器获取焦点ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             object result = this.wb_editor.Document.InvokeScript("setFocus");
@@ -616,7 +618,68 @@ namespace EMRE
             }
         }
 
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            ToolStripButton tsb = null;
+            List<string> HasExecuteCommandList = command.QueryCommandState(wb_editor);
+            ToolStripButton tb = (ToolStripButton)sender;
+            ToolStrip ts = tb.Owner;
+            foreach (var item in ts.Items)
+            {
+                string type = item.GetType().Name.ToString();
+                if ("ToolStripButton" == type)
+                {
+                    tsb = (ToolStripButton)item;
+                }
+                if (HasExecuteCommandList.Contains(tsb.Name.ToUpper()))
+                {
+                    tsb.BackColor = Color.Red;
+                }
 
-       
+            }
+        }
+
+
+        public void SetCommandStatus()
+        {
+            ToolStripButton tsb = null;
+            List<string> HasExecuteCommandList = command.QueryCommandState(wb_editor);
+           
+            foreach (var item in toolStrip2.Items)
+            {
+                string type = item.GetType().Name.ToString();
+                if ("ToolStripButton" == type)
+                {
+                    tsb = (ToolStripButton)item;
+                }
+                if (HasExecuteCommandList.Contains(tsb.Name.ToUpper()))
+                {
+                    tsb.BackColor = Color.Red;
+                }
+
+            }
+
+            foreach (var item in toolStrip1.Items)
+            {
+                string type = item.GetType().Name.ToString();
+                if ("ToolStripButton" == type)
+                {
+                    tsb = (ToolStripButton)item;
+                }
+                if (HasExecuteCommandList.Contains(tsb.Name.ToUpper()))
+                {
+                    tsb.BackColor = Color.Red;
+                }
+
+            }
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            command.QueryCommandValue(wb_editor);
+        }
+
+
+
     }
 }

@@ -12,6 +12,68 @@ namespace EmrEditor
     [System.Runtime.InteropServices.ComVisibleAttribute(true)]
     public class Command
     {
+
+        List<string> CommandList =new List<string>();
+        #region 构造方法
+        
+        
+        public Command() {
+            CommandList.Add("anchor");
+            CommandList.Add("autosubmit");
+            CommandList.Add("autotypeset");
+            CommandList.Add("bold");
+            CommandList.Add("italic");
+            CommandList.Add("subscript");
+            CommandList.Add("superscript");
+            CommandList.Add("blockquote");
+            CommandList.Add("cleardoc");
+            CommandList.Add("cleardoc");
+            CommandList.Add("touppercase");
+            CommandList.Add("tolowercase");
+            CommandList.Add("customstyle");
+            CommandList.Add("directionality");
+            CommandList.Add("forecolor");
+            CommandList.Add("backcolor");
+            CommandList.Add("fontsize");
+            CommandList.Add("fontfamily");
+            CommandList.Add("underline");
+            CommandList.Add("strikethrough");
+            CommandList.Add("fontborder");
+            CommandList.Add("formatmatch");
+            CommandList.Add("horizontal");
+            CommandList.Add("imagefloat");
+            CommandList.Add("indent");
+            CommandList.Add("insertcode");
+            CommandList.Add("inserthtml");
+            CommandList.Add("insertparagraph");
+            CommandList.Add("justify");
+            CommandList.Add("lineheight");
+            CommandList.Add("link");
+            CommandList.Add("unlink");
+            CommandList.Add("insertorderedlist");
+            CommandList.Add("insertunorderedlist");
+            CommandList.Add("pagebreak");
+            CommandList.Add("paragraph");
+            CommandList.Add("rowspacingtop");
+            CommandList.Add("preview");
+            CommandList.Add("print");
+            CommandList.Add("removeformat");
+            CommandList.Add("inserttable");
+            CommandList.Add("deletetable");
+            CommandList.Add("insertparagraphbeforetable");
+            CommandList.Add("insertrow");
+            CommandList.Add("deleterow");
+            CommandList.Add("mergecells");
+            CommandList.Add("mergeright");
+            CommandList.Add("mergedown");
+            CommandList.Add("splittorows");
+            CommandList.Add("splittocols");
+        }
+        #endregion
+
+        #region 命令API
+        
+
         /// <summary>
         ///	anchor	插入锚点
         /// autosubmit	提交表单
@@ -337,7 +399,7 @@ namespace EmrEditor
                     result = browser.Document.InvokeScript("splittorows");
                     break;
                 case "splittocols":
-                    //insertrow	前插入行
+                    //insertrow	前插入列
                     result = browser.Document.InvokeScript("splittocols");
                     break;
                 case "insertHtmlTag":
@@ -360,6 +422,58 @@ namespace EmrEditor
                     break;
 
             }
+        }
+
+        #endregion
+
+
+        /// <summary>
+        /// 查询给定命令在当前选区内的状态
+        /// </summary>
+        /// <returns></returns>
+        public List<string> QueryCommandState(WebBrowser browser)
+        {
+            //已经执行过 的命令
+            List<string> _hasExecuteCommandList = new List<string>();
+            //可以执行的命令
+            List<string> _canExecuteCommandList = new List<string>();
+            //无法执行的命令
+            List<string> _nonExcuteCommandList = new List<string>();
+
+            foreach (var item in CommandList)
+            {
+                object[] o = new object[1];
+                o[0]=item;
+                object result = browser.Document.InvokeScript("QueryCommandState", o);
+               if (result.ToString()=="1")
+               {
+                   _hasExecuteCommandList.Add(item.ToUpper());
+               }
+               else if (result.ToString() == "0")
+               {
+                   _canExecuteCommandList.Add(item.ToUpper());
+               }
+               else if (result.ToString() == "-1")
+               {
+                   _nonExcuteCommandList.Add(item.ToUpper());
+               }
+            }
+            return  _hasExecuteCommandList;
+        }
+
+
+       
+
+
+
+        /// <summary>
+        /// 查询给定命令在当前选区内的值， 默认返回undefined。根据命令的不同其返回值也会不同。
+        /// </summary>
+        public void QueryCommandValue(WebBrowser browser)
+        {
+
+            object result = browser.Document.InvokeScript("QueryCommandValue");
+
         }
     }
 }

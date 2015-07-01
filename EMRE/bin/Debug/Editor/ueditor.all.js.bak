@@ -7560,6 +7560,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
          * @return { * } 返回命令函数运行的返回值
          */
         _callCmdFn: function (fnName, args) {
+			try{
             var cmdName = args[0].toLowerCase(),
                 cmd, cmdFn;
             cmd = this.commands[cmdName] || UE.commands[cmdName];
@@ -7570,6 +7571,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
             } else if (cmdFn) {
                 return cmdFn.apply(this, args);
             }
+			}catch(e){}
         },
 
         /**
@@ -9951,7 +9953,7 @@ var LocalStorage = UE.LocalStorage = (function () {
 UE.plugins['defaultfilter'] = function () {
     var me = this;
     me.setOpt({
-        'allowDivTransToP':true,
+        'allowDivTransToP':false,
         'disabledTableInTable':true
     });
     //默认的过滤处理

@@ -7560,16 +7560,18 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
          * @return { * } 返回命令函数运行的返回值
          */
         _callCmdFn: function (fnName, args) {
-            var cmdName = args[0].toLowerCase(),
-                cmd, cmdFn;
-            cmd = this.commands[cmdName] || UE.commands[cmdName];
-            cmdFn = cmd && cmd[fnName];
-            //没有querycommandstate或者没有command的都默认返回0
-            if ((!cmd || !cmdFn) && fnName == 'queryCommandState') {
-                return 0;
-            } else if (cmdFn) {
-                return cmdFn.apply(this, args);
-            }
+			try{
+				var cmdName = args[0].toLowerCase(),
+					cmd, cmdFn;
+				cmd = this.commands[cmdName] || UE.commands[cmdName];
+				cmdFn = cmd && cmd[fnName];
+				//没有querycommandstate或者没有command的都默认返回0
+				if ((!cmd || !cmdFn) && fnName == 'queryCommandState') {
+					return 0;
+				} else if (cmdFn) {
+					return cmdFn.apply(this, args);
+				}
+			}catch(e){}
         },
 
         /**
