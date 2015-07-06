@@ -325,7 +325,8 @@ namespace EMRE
             //command.Invoke("preview", wb_editor);
             string s = Application.StartupPath + "\\preview.html";
             object result = this.wb_editor.Document.InvokeScript("getAllHtml");
-            CommonFunction.SaveTemplet(result.ToString(), s, false);
+            string _strResult = CommonFunction.UpdateHtmlStr(result.ToString(),"head","<head><script language=\"JavaScript\" src=\"test.js\"></head>");
+            CommonFunction.SaveTemplet(_strResult, s, false);
             FilePreview.uriString = s;
             FilePreview fp = new FilePreview();
             fp.Show();

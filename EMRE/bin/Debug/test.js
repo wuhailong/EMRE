@@ -1,4 +1,3 @@
-﻿<html><head>
 <STYLE type=text/css>.view{padding:0;word-wrap:break-word;cursor:text;height:90%;}body{margin:8px;font-family:sans-serif;font-size:16px;}p{margin:5px 0;}</STYLE>
 <LINK rel=stylesheet type=text/css href="file://E:/Github/EMRE/EMRE/bin/Debug/Editor/themes/iframe.css">
 <STYLE>TABLE.sortEnabled TR.firstRow TH {
@@ -1972,4 +1971,4 @@ LI.list-dot-paddingleft {
 <STYLE>.anchorclass {
 	WIDTH: 15px; DISPLAY: inline-block; BACKGROUND: url(file://E:/Github/EMRE/EMRE/bin/Debug/Editor/themes/default/images/anchor.gif) no-repeat left center; HEIGHT: 16px; CURSOR: auto
 }
-</STYLE><style type="text/css">body{background-color:#ffffff; background-image:; background-repeat:repeat; background-position:0% 0%; height:1123px; }</style> </head><body class="view"><table><tbody><tr class="firstRow"><td style="WORD-BREAK: break-all" valign="top" width="359">123</td><td valign="top" width="359"></td></tr><tr><td style="WORD-BREAK: break-all" valign="top" width="359">234</td><td valign="top" width="359"></td></tr></tbody></table><p></p></body></html>
+</STYLE><style type="text/css">body{background-color:#ffffff; background-image:; background-repeat:repeat; background-position:0% 0%; height:1123px; }</style> 
