@@ -175,6 +175,8 @@
             this.Paragraph = new System.Windows.Forms.ToolStripComboBox();
             this.fontfamily = new System.Windows.Forms.ToolStripComboBox();
             this.fontsize = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.indent = new System.Windows.Forms.ToolStripButton();
             this.justifyleft = new System.Windows.Forms.ToolStripButton();
@@ -221,8 +223,6 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.sfd_templet = new System.Windows.Forms.SaveFileDialog();
             this.ofd_templet = new System.Windows.Forms.OpenFileDialog();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
@@ -892,11 +892,11 @@
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(23, 22);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.createnew,
             this.openfile,
             this.save,
-            this.autopb,
             this.cleardoc,
+            this.createnew,
+            this.autopb,
             this.toolStripSeparator8,
             this.undo,
             this.redo,
@@ -936,7 +936,7 @@
             this.createnew.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.createnew.Name = "createnew";
             this.createnew.Size = new System.Drawing.Size(27, 27);
-            this.createnew.Text = "toolStripButton1";
+            this.createnew.Text = "新建";
             this.createnew.Click += new System.EventHandler(this.createnew_Click);
             // 
             // openfile
@@ -956,7 +956,7 @@
             this.save.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(27, 27);
-            this.save.Text = "toolStripButton1";
+            this.save.Text = "保存";
             this.save.Click += new System.EventHandler(this.savefile_Click);
             // 
             // autopb
@@ -974,13 +974,13 @@
             // toolStripMenuItem22
             // 
             this.toolStripMenuItem22.Name = "toolStripMenuItem22";
-            this.toolStripMenuItem22.Size = new System.Drawing.Size(83, 22);
+            this.toolStripMenuItem22.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem22.Text = "1";
             // 
             // toolStripMenuItem23
             // 
             this.toolStripMenuItem23.Name = "toolStripMenuItem23";
-            this.toolStripMenuItem23.Size = new System.Drawing.Size(83, 22);
+            this.toolStripMenuItem23.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem23.Text = "2";
             // 
             // cleardoc
@@ -1535,6 +1535,25 @@
             this.fontsize.Text = "16px";
             this.fontsize.SelectedIndexChanged += new System.EventHandler(this.fontsize_SelectedIndexChanged);
             // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(27, 27);
+            this.toolStripButton3.Text = "toolStripButton3";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(27, 27);
+            this.toolStripButton4.Text = "toolStripButton4";
+            // 
             // toolStrip2
             // 
             this.toolStrip2.ImageScalingSize = new System.Drawing.Size(23, 22);
@@ -1977,25 +1996,6 @@
             this.sfd_templet.AddExtension = false;
             this.sfd_templet.Filter = "(*.html)|*.html|(*.xml)|*.xml";
             this.sfd_templet.OverwritePrompt = false;
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton3.Text = "toolStripButton3";
-            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton1_Click);
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(27, 27);
-            this.toolStripButton4.Text = "toolStripButton4";
             // 
             // EEditor
             // 

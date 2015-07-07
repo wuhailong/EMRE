@@ -10,6 +10,7 @@ using System.Security.Permissions;
 using EmrEditor;
 using System.IO;
 using ToolFunction;
+using System.Configuration;
 
 namespace EMRE
 {
@@ -325,13 +326,26 @@ namespace EMRE
             //command.Invoke("preview", wb_editor);
             string s = Application.StartupPath + "\\preview.html";
             object result = this.wb_editor.Document.InvokeScript("getAllHtml");
-            string _strResult = CommonFunction.UpdateHtmlStr(result.ToString(),"head","<head><script language=\"JavaScript\" src=\"test.js\"></head>");
+            string _strResult = ClearFile(result.ToString());
             CommonFunction.SaveTemplet(_strResult, s, false);
             FilePreview.uriString = s;
             FilePreview fp = new FilePreview();
             fp.Show();
 
 
+        }
+
+        /// <summary>
+        /// 清理文档字符串，将head的样式迁移出去，要是我是js大牛就好了，就可以在生成文件时修改了。
+        /// </summary>
+        /// <param name="p_strFile">文档字符串</param>
+        /// <returns></returns>
+        public string ClearFile(string p_strFile)
+        {
+            string _strFTP = ConfigurationManager.AppSettings["FTP"].ToString();
+            string _strStyle =  ConfigurationManager.AppSettings["STYLE"].ToString() ;
+            string _strResult = CommonFunction.UpdateHtmlStr(p_strFile.ToString(), "head", "<head> <link href=\"" + _strFTP + "/" +_strStyle+ "\" rel=\"stylesheet\" type=\"text/css\"/></head>");
+            return _strResult;
         }
 
         private void pagesplit_Click(object sender, EventArgs e)
@@ -490,6 +504,9 @@ namespace EMRE
             command.Invoke("cleardoc", wb_editor);
         }
 
+        /// <summary>
+        /// 保存文件
+        /// </summary>
         public void SaveFile()
         {
             if (isNew)
@@ -498,7 +515,7 @@ namespace EMRE
                 strTempletPath = sfd_templet.FileName;
             }
             object result = this.wb_editor.Document.InvokeScript("getAllHtml");
-            CommonFunction.SaveTemplet(result.ToString(), strTempletPath);
+            CommonFunction.SaveTemplet(ClearFile(result.ToString()), strTempletPath);
         }
 
         private void savefile_Click(object sender, EventArgs e)
