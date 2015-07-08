@@ -518,6 +518,39 @@
   <ItemGroup>
     <None Include="Resources\autopb23.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radio23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radio232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combox232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combox2321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date2321.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -342,9 +342,16 @@ namespace EMRE
         /// <returns></returns>
         public string ClearFile(string p_strFile)
         {
+            string _strValue = "<head>";
             string _strFTP = ConfigurationManager.AppSettings["FTP"].ToString();
             string _strStyle =  ConfigurationManager.AppSettings["STYLE"].ToString() ;
-            string _strResult = CommonFunction.UpdateHtmlStr(p_strFile.ToString(), "head", "<head> <link href=\"" + _strFTP + "/" +_strStyle+ "\" rel=\"stylesheet\" type=\"text/css\"/></head>");
+            _strValue+= " <link href=\"" + _strFTP + "/" +_strStyle+ "\" rel=\"stylesheet\" type=\"text/css\"/>";
+            //_strValue += "<script type=\"text/javascript\" src=\"" + _strFTP + "/" + "date.js\"></script>";
+            //_strValue += "<script type=\"text/javascript\" src=\"" + _strFTP + "/" + "combox.js\"></script>";
+            //_strValue += "<script type=\"text/javascript\" src=\"" + _strFTP + "/" + "radio.js\"></script>";
+            //_strValue += "<script type=\"text/javascript\" src=\"" + _strFTP + "/" + "button.js\"></script>";
+            _strValue+="</head>";
+            string _strResult = CommonFunction.UpdateHtmlStr(p_strFile.ToString(), "head", _strValue);
             return _strResult;
         }
 
@@ -695,6 +702,13 @@ namespace EMRE
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             command.QueryCommandValue(wb_editor);
+        }
+
+        private void datePacker_Click(object sender, EventArgs e)
+        {
+            object[] o = new object[1];
+            o[0] = "<p style=\"background-color:red;width:100px;height:20px\" id=\"sDate1\" onClick=\"return Calendar('sDate1');\">{}</p>";
+            object result = this.wb_editor.Document.InvokeScript("insertHtml", o);
         }
 
 

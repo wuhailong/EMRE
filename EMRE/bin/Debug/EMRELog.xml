@@ -37,4 +37,14 @@
    在 ToolFunction.CommonFunction.OpenTemplet(String p_strFileName) 位置 E:\Github\ToolFunction\CommonFunction.cs:行号 1793</StackTrace>
     <Message>打开文件失败</Message>
   </Log>
+  <Log>
+    <Time>2015-07-07 17:04:25</Time>
+    <User>User</User>
+    <StackTrace>System.ArgumentException: 空路径名是非法的。
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode)
+   在 ToolFunction.CommonFunction.SaveTemplet(String p_strFileContent, String p_strFileName, Boolean Encrypt) 位置 E:\Github\ToolFunction\CommonFunction.cs:行号 1754</StackTrace>
+    <Message>保存文件失败</Message>
+  </Log>
 </系统日志>
